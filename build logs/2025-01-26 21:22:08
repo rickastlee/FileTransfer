@@ -1,0 +1,1532 @@
+21:22:08 Build sandboxing disabled due to nsjail error.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=11
+LINEAGE_VERSION=18.1-20250126-UNOFFICIAL-miatoll
+TARGET_PRODUCT=lineage_miatoll
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-2a
+TARGET_CPU_VARIANT=cortex-a76
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a76
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.8.0-1021-aws-x86_64-Ubuntu-24.04.1-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=RQ3A.211001.001
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/xiaomi/sm6250-common hardware/google/interfaces hardware/google/pixel hardware/xiaomi vendor/qcom/opensource/usb/etc vendor/xiaomi/sm6250-common device/xiaomi/miatoll vendor/xiaomi/miatoll hardware/qcom-caf/sm8150 vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices packages/apps/Bluetooth
+============================================
+ninja: no work to do.
+[100% 1/1] out/soong/.bootstrap/bin/soong_build out/soong/build.ninja
+device/xiaomi/sm6250-common/BoardConfigCommon.mk was modified, regenerating...
+device/xiaomi/sm6250-common/BoardConfigCommon.mk was modified, regenerating...
+[100% 2/2] initializing build system ...
+[  1% 3/259] including out/soong/Android-lineage_miatoll.mk ...
+[  1% 4/259] including art/Android.mk ...
+[  1% 5/259] including bionic/Android.mk ...
+[  2% 6/259] including bootable/recovery/Android.mk ...
+[  2% 7/259] including build/make/target/board/Android.mk ...
+[  3% 8/259] including build/make/target/product/gsi/Android.mk ...
+[  3% 9/259] including build/make/target/product/security/Android.mk ...
+[  3% 10/259] including build/make/tools/fs_config/Android.mk ...
+[  4% 11/259] including cts/Android.mk ...
+[  4% 12/259] including dalvik/Android.mk ...
+[  5% 13/259] including development/apps/Development/Android.mk ...
+[  5% 14/259] including development/apps/DumpViewer/Android.mk ...
+[  5% 15/259] including development/build/Android.mk ...
+[  6% 16/259] including development/cmds/monkey/Android.mk ...
+[  6% 17/259] including development/samples/ApiDemos/Android.mk ...
+[  6% 18/259] including development/samples/IntentPlayground/Android.mk ...
+[  7% 19/259] including development/samples/MultiClientInputMethod/Android.mk ...
+[  7% 20/259] including development/samples/MultiDisplay/Android.mk ...
+[  8% 21/259] including development/samples/RenderScript/Android.mk ...
+[  8% 22/259] including development/samples/ShortcutDemo/Android.mk ...
+[  8% 23/259] including development/samples/ShortcutSample/Android.mk ...
+[  9% 24/259] including development/samples/UiAutomator/Android.mk ...
+[  9% 25/259] including development/testrunner/Android.mk ...
+[ 10% 26/259] including device/generic/goldfish-opengl/Android.mk ...
+[ 10% 27/259] including device/generic/goldfish/Android.mk ...
+[ 10% 28/259] including device/google/atv/LeanbackSampleApp/Android.mk ...
+[ 11% 29/259] including device/google/atv/sdk/Android.mk ...
+[ 11% 30/259] including device/google/contexthub/firmware/Android.mk ...
+[ 11% 31/259] including device/google/contexthub/lefty/Android.mk ...
+[ 12% 32/259] including device/google/contexthub/lib/Android.mk ...
+[ 12% 33/259] including device/google/contexthub/sensorhal/Android.mk ...
+[ 13% 34/259] including device/google/cuttlefish/Android.mk ...
+[ 13% 35/259] including device/google/vrservices/xr/packages/BluetoothQtiSymlink/Android.mk ...
+[ 13% 36/259] including device/google/vrservices/xr/packages/overlays/SetupWizardOverlayXr/Android.mk ...
+[ 14% 37/259] including device/lineage/atv/Android.mk ...
+[ 14% 38/259] including device/qcom/sepolicy-legacy/Android.mk ...
+[ 15% 39/259] including device/sample/Android.mk ...
+[ 15% 40/259] including device/xiaomi/miatoll/Android.mk ...
+[ 15% 41/259] including device/xiaomi/sm6250-common/Android.mk ...
+[ 16% 42/259] including external/ant-wireless/ant_native/Android.mk ...
+[ 16% 43/259] including external/ant-wireless/ant_service/Android.mk ...
+[ 16% 44/259] including external/ant-wireless/antradio-library/Android.mk ...
+[ 17% 45/259] including external/bash/Android.mk ...
+[ 17% 46/259] including external/chromium-trace/Android.mk ...
+[ 18% 47/259] including external/clang/Android.mk ...
+[ 18% 48/259] including external/connectivity/cnefeatureconfig/Android.mk ...
+[ 18% 49/259] including external/e2fsprogs/Android.mk ...
+[ 19% 50/259] including external/exoplayer/Android.mk ...
+[ 19% 51/259] including external/flatbuffers/Android.mk ...
+[ 20% 52/259] including external/fmtlib/support/Android.mk ...
+[ 20% 53/259] including external/google-breakpad/Android.mk ...
+[ 20% 54/259] including external/googletest/googletest/Android.mk ...
+[ 21% 55/259] including external/htop/Android.mk ...
+[ 21% 56/259] including external/hyphenation-patterns/Android.mk ...
+[ 22% 57/259] including external/icu/icu4c/Android.mk ...
+[ 22% 58/259] including external/json-c/Android.mk ...
+[ 22% 59/259] including external/libaom/Android.mk ...
+[ 23% 60/259] including external/libncurses/Android.mk ...
+[ 23% 61/259] including external/libnfc-nxp/Android.mk ...
+[ 23% 62/259] including external/libusb/Android.mk ...
+[ 24% 63/259] including external/libvpx/Android.mk ...
+[ 24% 64/259] including external/ltp/Android.mk ...
+[ 25% 65/259] including external/markdown/Android.mk ...
+[ 25% 66/259] including external/mesa3d/Android.mk ...
+[ 25% 67/259] including external/nano/Android.mk ...
+[ 26% 68/259] including external/noto-fonts/emoji-compat/Android.mk ...
+[ 26% 69/259] including external/p7zip/Android.mk ...
+[ 27% 70/259] including external/pigz/Android.mk ...
+[ 27% 71/259] including external/proguard/Android.mk ...
+[ 27% 72/259] including external/robolectric-shadows/Android.mk ...
+[ 28% 73/259] including external/rsync/Android.mk ...
+[ 28% 74/259] including external/unrar/Android.mk ...
+[ 28% 75/259] including external/v4l2_codec2/tests/Android.mk ...
+[ 29% 76/259] including external/vim/Android.mk ...
+[ 29% 77/259] including external/vixl/Android.mk ...
+[ 30% 78/259] including external/vogar/Android.mk ...
+[ 30% 79/259] including external/vulkan-validation-layers/Android.mk ...
+[ 30% 80/259] including external/walt/android/WALT/app/src/main/jni/Android.mk ...
+[ 31% 81/259] including external/webrtc/Android.mk ...
+[ 31% 82/259] including external/wpa_supplicant_8/Android.mk ...
+[ 32% 83/259] including external/zip/Android.mk ...
+[ 32% 84/259] including frameworks/av/camera/Android.mk ...
+[ 32% 85/259] including frameworks/av/cmds/stagefright/Android.mk ...
+[ 33% 86/259] including frameworks/av/media/audioserver/Android.mk ...
+[ 33% 87/259] including frameworks/av/media/codec2/Android.mk ...
+[ 33% 88/259] including frameworks/av/media/libeffects/visualizer/Android.mk ...
+[ 34% 89/259] including frameworks/av/media/libmedia/xsd/vts/Android.mk ...
+[ 34% 90/259] including frameworks/av/media/libstagefright/xmlparser/vts/Android.mk ...
+[ 35% 91/259] including frameworks/av/services/audiopolicy/manager/Android.mk ...
+[ 35% 92/259] including frameworks/av/services/audiopolicy/service/Android.mk ...
+[ 35% 93/259] including frameworks/av/services/camera/libcameraservice/Android.mk ...
+[ 36% 94/259] including frameworks/base/Android.mk ...
+[ 36% 95/259] including frameworks/native/cmds/flatland/Android.mk ...
+[ 37% 96/259] including frameworks/native/cmds/ip-up-vpn/Android.mk ...
+[ 37% 97/259] including frameworks/opt/car/services/tests/Android.mk ...
+[ 37% 98/259] including frameworks/opt/localepicker/tests/Android.mk ...
+[ 38% 99/259] including frameworks/opt/net/wifi/libwifi_hal/Android.mk ...
+[ 38% 100/259] including frameworks/rs/Android.mk ...
+[ 38% 101/259] including hardware/broadcom/libbt/Android.mk ...
+[ 39% 102/259] including hardware/broadcom/wlan/bcmdhd/Android.mk ...
+[ 39% 103/259] including hardware/google/easel/amber/camera/Android.mk ...
+[ 40% 104/259] including hardware/interfaces/compatibility_matrices/Android.mk ...
+[ 40% 105/259] including hardware/interfaces/configstore/1.1/default/Android.mk ...
+[ 40% 106/259] including hardware/interfaces/drm/1.0/default/Android.mk ...
+[ 41% 107/259] including hardware/interfaces/graphics/composer/2.2/default/Android.mk ...
+[ 41% 108/259] including hardware/interfaces/keymaster/3.0/default/Android.mk ...
+[ 42% 109/259] including hardware/interfaces/media/1.0/xml/Android.mk ...
+[ 42% 110/259] including hardware/interfaces/soundtrigger/2.0/default/Android.mk ...
+[ 42% 111/259] including hardware/interfaces/soundtrigger/2.1/default/Android.mk ...
+[ 43% 112/259] including hardware/interfaces/wifi/1.4/default/Android.mk ...
+[ 43% 113/259] including hardware/interfaces/wifi/supplicant/1.1/vts/Android.mk ...
+[ 44% 114/259] including hardware/invensense/Android.mk ...
+[ 44% 115/259] including hardware/knowles/athletico/sound_trigger_hal/Android.mk ...
+[ 44% 116/259] including hardware/libhardware/Android.mk ...
+[ 45% 117/259] including hardware/lineage/interfaces/wifi/1.0-legacy/Android.mk ...
+[ 45% 118/259] including hardware/qcom-caf/apq8084/Android.mk ...
+[ 45% 119/259] including hardware/qcom-caf/bt/Android.mk ...
+[ 46% 120/259] including hardware/qcom-caf/msm8916/Android.mk ...
+[ 46% 121/259] including hardware/qcom-caf/msm8952/Android.mk ...
+[ 47% 122/259] including hardware/qcom-caf/msm8953/Android.mk ...
+[ 47% 123/259] including hardware/qcom-caf/msm8960/Android.mk ...
+[ 47% 124/259] including hardware/qcom-caf/msm8974/Android.mk ...
+[ 48% 125/259] including hardware/qcom-caf/msm8994/Android.mk ...
+[ 48% 126/259] including hardware/qcom-caf/msm8996/Android.mk ...
+[ 49% 127/259] including hardware/qcom-caf/msm8998/Android.mk ...
+[ 49% 128/259] including hardware/qcom-caf/sdm845/Android.mk ...
+[ 49% 129/259] including hardware/qcom-caf/sm8150/Android.mk ...
+[ 50% 130/259] including hardware/qcom-caf/sm8250/Android.mk ...
+[ 50% 131/259] including hardware/qcom-caf/sm8350/Android.mk ...
+[ 50% 132/259] including hardware/qcom-caf/vr/Android.mk ...
+[ 51% 133/259] including hardware/qcom-caf/wlan/Android.mk ...
+[ 51% 134/259] including hardware/qcom/Android.mk ...
+[ 52% 135/259] including hardware/ril/libril/Android.mk ...
+[ 52% 136/259] including hardware/ril/reference-ril/Android.mk ...
+[ 52% 137/259] including hardware/ril/rild/Android.mk ...
+[ 53% 138/259] including lineage-sdk/Android.mk ...
+[ 53% 139/259] including packages/apps/AudioFX/tests/Android.mk ...
+[ 54% 140/259] including packages/apps/Backgrounds/Android.mk ...
+[ 54% 141/259] including packages/apps/Bluetooth/tests/Android.mk ...
+[ 54% 142/259] including packages/apps/Camera2/Android.mk ...
+[ 55% 143/259] including packages/apps/Car/libs/car-ui-lib/Android.mk ...
+[ 55% 144/259] including packages/apps/Dialer/Android.mk ...
+[ 55% 145/259] including packages/apps/Etar/Android.mk ...
+[ 56% 146/259] including packages/apps/FMRadio/Android.mk ...
+[ 56% 147/259] including packages/apps/Gallery2/Android.mk ...
+[ 57% 148/259] including packages/apps/LineageCustomizer/Android.mk ...
+[ 57% 149/259] including packages/apps/Messaging/Android.mk ...
+[ 57% 150/259] including packages/apps/Nfc/nxp/Android.mk ...
+[ 58% 151/259] including packages/apps/SampleLocationAttribution/Android.mk ...
+[ 58% 152/259] including packages/apps/SetupWizard/tests/Android.mk ...
+[ 59% 153/259] including packages/apps/Snap/Android.mk ...
+[ 59% 154/259] including packages/apps/StorageManager/Android.mk ...
+[ 59% 155/259] including packages/apps/TV/common/tests/robotests/Android.mk ...
+[ 60% 156/259] including packages/apps/TV/jni/minijail/Android.mk ...
+[ 60% 157/259] including packages/apps/TV/partner_support/sample_customization/Android.mk ...
+[ 61% 158/259] including packages/apps/TV/tests/Android.mk ...
+[ 61% 159/259] including packages/apps/TV/tuner/tests/robotests/Android.mk ...
+[ 61% 160/259] including packages/apps/TV/tuner/tests/testing/Android.mk ...
+[ 62% 161/259] including packages/apps/ThemePicker/Android.mk ...
+[ 62% 162/259] including packages/apps/Trebuchet/Android.mk ...
+[ 62% 163/259] including packages/apps/TvSettings/TwoPanelSettingsOverlay/Android.mk ...
+[ 63% 164/259] including packages/apps/Updater/Android.mk ...
+[ 63% 165/259] including packages/apps/WallpaperPicker2/Android.mk ...
+[ 64% 166/259] including packages/overlays/Lineage/accents/black/Android.mk ...
+[ 64% 167/259] including packages/overlays/Lineage/accents/blue/Android.mk ...
+[ 64% 168/259] including packages/overlays/Lineage/accents/brown/Android.mk ...
+[ 65% 169/259] including packages/overlays/Lineage/accents/cyan/Android.mk ...
+[ 65% 170/259] including packages/overlays/Lineage/accents/green/Android.mk ...
+[ 66% 171/259] including packages/overlays/Lineage/accents/orange/Android.mk ...
+[ 66% 172/259] including packages/overlays/Lineage/accents/pink/Android.mk ...
+[ 66% 173/259] including packages/overlays/Lineage/accents/purple/Android.mk ...
+[ 67% 174/259] including packages/overlays/Lineage/accents/red/Android.mk ...
+[ 67% 175/259] including packages/overlays/Lineage/accents/yellow/Android.mk ...
+[ 67% 176/259] including packages/overlays/Lineage/customizations/BlackTheme/Android.mk ...
+[ 68% 177/259] including packages/overlays/Lineage/customizations/NavigationBarNoHint/Android.mk ...
+[ 68% 178/259] including packages/overlays/Lineage/fonts/Lato/Android.mk ...
+[ 69% 179/259] including packages/overlays/Lineage/fonts/Rubik/Android.mk ...
+[ 69% 180/259] including packages/overlays/Lineage/stub/Android.mk ...
+[ 69% 181/259] including packages/services/Car/Android.mk ...
+[ 70% 182/259] including packages/services/Mtp/perf_tests/Android.mk ...
+[ 70% 183/259] including packages/services/Mtp/tests/Android.mk ...
+[ 71% 184/259] including pdk/apps/HelloPDK/Android.mk ...
+[ 71% 185/259] including pdk/apps/TestingCamera/Android.mk ...
+[ 71% 186/259] including pdk/apps/TestingCamera2/Android.mk ...
+[ 72% 187/259] including platform_testing/scripts/perf-load-setup/Android.mk ...
+[ 72% 188/259] including platform_testing/scripts/perf-setup/Android.mk ...
+[ 72% 189/259] including platform_testing/scripts/perfetto-setup/Android.mk ...
+[ 73% 190/259] including platform_testing/utils/crashcollector/Android.mk ...
+[ 73% 191/259] including prebuilts/asuite/acloud/linux-x86/Android.mk ...
+[ 74% 192/259] including prebuilts/clang/host/linux-x86/Android.mk ...
+[ 74% 193/259] including prebuilts/ndk/Android.mk ...
+[ 74% 194/259] including prebuilts/runtime/Android.mk ...
+[ 75% 195/259] including prebuilts/sdk/Android.mk ...
+[ 75% 196/259] including system/bt/gd/Android.mk ...
+[ 76% 197/259] including system/chre/Android.mk ...
+[ 76% 198/259] including system/core/fastboot/Android.mk ...
+[ 76% 199/259] including system/core/healthd/Android.mk ...
+[ 77% 200/259] including system/core/init/Android.mk ...
+[ 77% 201/259] including system/core/rootdir/Android.mk ...
+[ 77% 202/259] including system/extras/Android.mk ...
+[ 78% 203/259] including system/iorap/Android.mk ...
+[ 78% 204/259] including system/libfmq/benchmarks/Android.mk ...
+[ 79% 205/259] including system/libfmq/tests/Android.mk ...
+[ 79% 206/259] including system/libhidl/transport/base/1.0/vts/functional/Android.mk ...
+[ 79% 207/259] including system/libhidl/vintfdata/Android.mk ...
+[ 80% 208/259] including system/libvintf/Android.mk ...
+[ 80% 209/259] including system/memory/libmeminfo/vts/Android.mk ...
+[ 81% 210/259] including system/sepolicy/Android.mk ...
+[ 81% 211/259] including system/timezone/Android.mk ...
+[ 81% 212/259] including system/tools/aidl/build/Android.mk ...
+[ 82% 213/259] including system/tools/hidl/build/Android.mk ...
+[ 82% 214/259] including system/tools/hidl/test/hidl_test/Android.mk ...
+[ 83% 215/259] including system/tools/hidl/test/java_test/Android.mk ...
+[ 83% 216/259] including test/framework/build/Android.mk ...
+[ 83% 217/259] including test/mlts/benchmark/Android.mk ...
+[ 84% 218/259] including test/vti/test_serving/configs/global/Android.mk ...
+[ 84% 219/259] including test/vts-testcase/fuzz/config/neuralnetworks/V1_2/iface_fuzzer/Android.mk ...
+[ 84% 220/259] including test/vts-testcase/hal/neuralnetworks/V1_2/benchmark/java/Android.mk ...
+[ 85% 221/259] including test/vts-testcase/hal/neuralnetworks/V1_3/benchmark/java/Android.mk ...
+[ 85% 222/259] including test/vts-testcase/hal/radio/config/V1_0/target/radio/config/Android.mk ...
+[ 86% 223/259] including test/vts-testcase/hal/radio/config/V1_1/target/radio/config/Android.mk ...
+[ 86% 224/259] including test/vts-testcase/hal/radio/config/V1_2/target/radio/config/Android.mk ...
+[ 86% 225/259] including test/vts-testcase/hal/vts_specs/Android.mk ...
+[ 87% 226/259] including test/vts-testcase/kernel/bow/Android.mk ...
+[ 87% 227/259] including test/vts-testcase/kernel/dynamic_partitions/Android.mk ...
+[ 88% 228/259] including test/vts-testcase/kernel/loop/Android.mk ...
+[ 88% 229/259] including test/vts-testcase/security/poc/target/Android.mk ...
+[ 88% 230/259] including test/vts/compilation_tools/vtsc/test/Android.mk ...
+[ 89% 231/259] including test/vts/specification/Android.mk ...
+[ 89% 232/259] including test/vts/tools/vts-tradefed/etc/Android.mk ...
+[ 89% 233/259] including test/vts/utils/python/archive/Android.mk ...
+[ 90% 234/259] including test/vts/utils/python/coverage/Android.mk ...
+[ 90% 235/259] including tools/loganalysis/Android.mk ...
+[ 91% 236/259] including tools/platform-compat/Android.mk ...
+[ 91% 237/259] including tools/test/connectivity/Android.mk ...
+[ 91% 238/259] including tools/test/graphicsbenchmark/Android.mk ...
+[ 92% 239/259] including tools/tradefederation/contrib/Android.mk ...
+[ 92% 240/259] including tools/tradefederation/core/Android.mk ...
+[ 93% 241/259] including vendor/lineage/bootanimation/Android.mk ...
+[ 93% 242/259] including vendor/lineage/charger/Android.mk ...
+[ 93% 243/259] including vendor/lineage/prebuilt/common/Android.mk ...
+[ 94% 244/259] including vendor/nxp/opensource/pn5xx/Android.mk ...
+[ 94% 245/259] including vendor/nxp/opensource/sn100x/Android.mk ...
+[ 94% 246/259] including vendor/qcom/opensource/audio-hal/st-hal/Android.mk ...
+[ 95% 247/259] including vendor/qcom/opensource/audio/Android.mk ...
+[ 95% 248/259] including vendor/qcom/opensource/commonsys/packages/apps/Bluetooth/tests/Android.mk ...
+[ 96% 249/259] including vendor/qcom/opensource/data-ipa-cfg-mgr/ipanat/test/Android.mk ...
+[ 96% 250/259] including vendor/qcom/opensource/dataservices/datatop/Android.mk ...
+[ 96% 251/259] including vendor/qcom/opensource/dataservices/rmnetctl/Android.mk ...
+[ 97% 252/259] including vendor/qcom/opensource/libfmjni/Android.mk ...
+[ 97% 253/259] including vendor/qcom/opensource/power/Android.mk ...
+[ 98% 254/259] including vendor/qcom/opensource/wfd-commonsys/Android.mk ...
+[ 98% 255/259] including vendor/xiaomi/miatoll/Android.mk ...
+[ 98% 256/259] including vendor/xiaomi/sm6250-common/Android.mk ...
+[ 99% 257/259] including out/soong/late-lineage_miatoll.mk ...
+[ 99% 258/259] finishing build rules ...
+[100% 259/259] writing build rules ...
+build/make/core/Makefile:49: warning: overriding commands for target `out/target/product/miatoll/system_ext/lib/libdisplayconfig.qti.so'
+build/make/core/base_rules.mk:513: warning: ignoring old commands for target `out/target/product/miatoll/system_ext/lib/libdisplayconfig.qti.so'
+build/make/core/Makefile:49: warning: overriding commands for target `out/target/product/miatoll/system_ext/lib64/libdisplayconfig.qti.so'
+build/make/core/base_rules.mk:513: warning: ignoring old commands for target `out/target/product/miatoll/system_ext/lib64/libdisplayconfig.qti.so'
+build/make/core/Makefile:49: warning: overriding commands for target `out/target/product/miatoll/vendor/lib/libdisplayconfig.qti.so'
+build/make/core/base_rules.mk:513: warning: ignoring old commands for target `out/target/product/miatoll/vendor/lib/libdisplayconfig.qti.so'
+build/make/core/Makefile:49: warning: overriding commands for target `out/target/product/miatoll/vendor/lib64/libdisplayconfig.qti.so'
+build/make/core/base_rules.mk:513: warning: ignoring old commands for target `out/target/product/miatoll/vendor/lib64/libdisplayconfig.qti.so'
+No need to regenerate ninja file
+Starting ninja...
+[ 26% 260/989] build out/target/product/miatoll/obj/KERNEL_OBJ/.additional_config
+[ 26% 261/989] Target misc_info.txt: out/target/product/miatoll/misc_info.txt
+[ 26% 262/989] Target ram disk: out/target/product/miatoll/ramdisk.img
+[ 26% 263/989] ----- Making uncompressed recovery ramdisk ------
+[ 26% 264/989] ----- Making compressed recovery ramdisk ------
+[ 26% 265/989] Building Kernel Config
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/bin2c
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/kconfig/zconf.tab.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --savedefconfig=defconfig Kconfig
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+21:25:05 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_326241/tmp"}
+21:25:05 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+21:25:07 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_329375/tmp"}
+21:25:07 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+21:25:07 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_329399/tmp"}
+21:25:07 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+21:25:07 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_329602/tmp"}
+21:25:07 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+[ 26% 266/989] //vendor/lineage/build/soong:generated_kernel_includes generate
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/soong/.temp/sbox799053563'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+grep: .config: No such file or directory
+  CHK     include/generated/uapi/linux/version.h
+  UPD     include/generated/uapi/linux/version.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/basic/fixdep
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  WRAP    arch/arm64/include/generated/uapi/asm/errno.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ioctl.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ioctls.h
+  WRAP    arch/arm64/include/generated/uapi/asm/ipcbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/kvm_para.h
+  WRAP    arch/arm64/include/generated/uapi/asm/msgbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/mman.h
+  WRAP    arch/arm64/include/generated/uapi/asm/poll.h
+  WRAP    arch/arm64/include/generated/uapi/asm/resource.h
+  WRAP    arch/arm64/include/generated/uapi/asm/sembuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/shmbuf.h
+  WRAP    arch/arm64/include/generated/uapi/asm/socket.h
+  WRAP    arch/arm64/include/generated/uapi/asm/sockios.h
+  WRAP    arch/arm64/include/generated/uapi/asm/termbits.h
+  WRAP    arch/arm64/include/generated/uapi/asm/termios.h
+  WRAP    arch/arm64/include/generated/uapi/asm/swab.h
+  WRAP    arch/arm64/include/generated/uapi/asm/types.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/unifdef
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/asm-generic/ (36 files)
+  INSTALL usr/include/drm/ (27 files)
+  INSTALL usr/include/media/ (34 files)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/misc/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/mtd/ (5 files)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/sound/ (15 files)
+  INSTALL usr/include/scsi/ (6 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/ (535 files)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/rdma/ (20 files)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/video/ (5 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/android/ (2 files)
+  INSTALL usr/include/linux/byteorder/ (2 files)
+  INSTALL usr/include/scsi/fc/ (4 files)
+  INSTALL usr/include/scsi/ufs/ (2 files)
+  INSTALL usr/include/xen/ (4 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/rdma/hfi/ (2 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/caif/ (2 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/cifs/ (1 file)
+  INSTALL usr/include/linux/can/ (6 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/dvb/ (8 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/genwqe/ (1 file)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/hdlc/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/iio/ (2 files)
+  INSTALL usr/include/linux/hsi/ (2 files)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/isdn/ (1 file)
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/mmc/ (3 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/netfilter_arp/ (2 files)
+  INSTALL usr/include/linux/netfilter_bridge/ (17 files)
+  INSTALL usr/include/linux/netfilter/ (88 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/netfilter_ipv4/ (10 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/netfilter_ipv6/ (12 files)
+  INSTALL usr/include/linux/nfc/ (2 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/nfsd/ (5 files)
+  INSTALL usr/include/linux/raid/ (2 files)
+  INSTALL usr/include/linux/sched/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/spi/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/sunrpc/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/netfilter/ipset/ (4 files)
+  INSTALL usr/include/linux/tc_act/ (15 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/tc_ematch/ (4 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/usb/ (16 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/linux/wimax/ (1 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/include/asm/ (35 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/techpack/audio/include/sound/ (7 files)
+  INSTALL usr/techpack/audio/include/linux/ (19 files)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/techpack/audio/include/linux/mfd/ (0 file)
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  INSTALL usr/techpack/audio/include/linux/mfd/wcd9xxx/ (2 files)
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/soong/.temp/sbox799053563'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 26% 267/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/list.cpp
+21:25:12 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_333976/tmp"}
+21:25:12 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+21:25:12 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_333987/tmp"}
+21:25:12 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+21:25:12 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_333989/tmp"}
+21:25:12 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+[ 27% 268/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/common.cpp
+[ 27% 269/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/rtt.cpp
+[ 27% 270/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/cpp_bindings.cpp
+[ 27% 271/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/llstats.cpp
+[ 27% 272/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/gscan_event_handler.cpp
+[ 27% 273/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/ifaceeventhandler.cpp
+[ 27% 274/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/gscan.cpp
+[ 27% 275/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/tdls.cpp
+[ 27% 276/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/wifi_hal.cpp
+[ 28% 277/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/nan.cpp
+[ 28% 278/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/ring_buffer.cpp
+[ 28% 279/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/nan_ind.cpp
+[ 28% 280/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/nan_rsp.cpp
+[ 28% 281/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/nan_req.cpp
+[ 28% 282/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/wifilogger.cpp
+[ 28% 283/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/rb_wrapper.cpp
+[ 28% 284/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/rssi_monitor.cpp
+[ 28% 285/989] target  C++: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/audio_hidl.cpp
+[ 28% 286/989] target  C++: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_perf.cpp
+[ 29% 287/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_hw.c
+[ 29% 288/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/acdb.c
+[ 29% 289/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/platform_info.c
+[ 29% 290/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/radio_mode.cpp
+[ 29% 291/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/voice.c
+[ 29% 292/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/roam.cpp
+[ 29% 293/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/compress_in.c
+[ 29% 294/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/audio_extn.c
+[ 29% 295/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/fm.c
+[ 29% 296/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/keep_alive.c
+[ 30% 297/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/source_track.c
+[ 30% 298/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/utils.c
+[ 30% 299/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/device_utils.c
+[ 30% 300/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/usb.c
+[ 30% 301/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/voice_extn/compress_voip.c
+[ 30% 302/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/tcp_params_update.cpp
+[ 30% 303/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/msm8974/hw_info.c
+[ 30% 304/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/soundtrigger.c
+[ 30% 305/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/voice_extn/voice_extn.c
+[ 30% 306/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/gef.c
+[ 31% 307/989] target  C: libcomprcapture <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/compress_capture.c
+[ 31% 308/989] target  C: libsndmonitor <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/sndmonitor.c
+[ 31% 309/989] target  C: libssrec <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/device_utils.c
+[ 31% 310/989] target  C: libssrec <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/ssr.c
+[ 31% 311/989] target  C: libhdmiedid <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/edid.c
+[ 31% 312/989] target  C: liba2dpoffload <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/device_utils.c
+[ 31% 313/989] Building dtbo.img
+FAILED: out/target/product/miatoll/obj/DTBO_OBJ/arch/arm64/boot/dtbo.img
+/bin/bash -c "(PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    vendor/xiaomi/miatoll_defconfig ) && (PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    dtbs ) && (out/host/linux-x86/bin/mkdtboimg.py create out/target/product/miatoll/obj/DTBO_OBJ/arch/arm64/boot/dtbo.img --page_size=4096 \$(find out/target/product/miatoll/obj/DTBO_OBJ/arch/arm64/boot/dts -type f -name \"*.dtbo\" | sort) )"
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/bin2c
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/kconfig/zconf.tab.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+WARNING: Disabling clang-specific options with gcc
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --silentoldconfig Kconfig
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/uapi/linux/version.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  UPD     include/config/kernel.release
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/utsrelease.h
+  UPD     include/generated/utsrelease.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+  HOSTCC  scripts/conmakehash
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/sortextable
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/asn1_compiler
+  HOSTCC  scripts/dtc/flattree.o
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/dtc/dtc.o
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/genksyms/genksyms.o
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/dtc/fstree.o
+  SHIPPED scripts/genksyms/parse.tab.c
+  HOSTCC  scripts/dtc/data.o
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/dtc/livetree.o
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  HOSTCC  scripts/selinux/mdp/mdp
+  SHIPPED scripts/genksyms/lex.lex.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/sign-file
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  SHIPPED scripts/genksyms/parse.tab.h
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  CC      scripts/mod/devicetable-offsets.s
+  HOSTCC  scripts/dtc/srcpos.o
+clang-11  HOSTCC  scripts/genksyms/lex.lex.o
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/checks.o
+clang-11clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11  HOSTCC  scripts/dtc/util.o
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  SHIPPED scripts/dtc/dtc-lexer.lex.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  SHIPPED scripts/dtc/dtc-parser.tab.h
+  SHIPPED scripts/dtc/dtc-parser.tab.c
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:365: scripts/mod/empty.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:89:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:160: scripts/mod/devicetable-offsets.s] Error 1
+make[2]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:678: scripts/mod] Error 2
+make[2]: *** Waiting for unfinished jobs....
+        while ((e = ERR_get_error_line(&file, &line))) {
+                    ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:102:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while (ERR_get_error_line(&file, &line)) {}
+               ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:142:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:144:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^
+/usr/include/openssl/engine.h:336:1: note: 'ENGINE_by_id' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:146:7: warning: 'ENGINE_init' is deprecated [-Wdeprecated-declarations]
+                if (ENGINE_init(e))
+                    ^
+/usr/include/openssl/engine.h:620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:151:9: warning: 'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]
+                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:153:17: warning: 'ENGINE_load_private_key' is deprecated [-Wdeprecated-declarations]
+                private_key = ENGINE_load_private_key(e, private_key_name,
+                              ^
+/usr/include/openssl/engine.h:637:1: note: 'ENGINE_load_private_key' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+7 warnings generated.
+  HOSTLD  scripts/genksyms/genksyms
+  HOSTLD  scripts/dtc/dtc
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:46:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while ((e = ERR_get_error_line(&file, &line))) {
+                    ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:59:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while (ERR_get_error_line(&file, &line)) {}
+               ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:124:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:126:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^
+/usr/include/openssl/engine.h:336:1: note: 'ENGINE_by_id' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:128:7: warning: 'ENGINE_init' is deprecated [-Wdeprecated-declarations]
+                if (ENGINE_init(e))
+                    ^
+/usr/include/openssl/engine.h:620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:133:9: warning: 'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]
+                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:134:3: warning: 'ENGINE_ctrl_cmd' is deprecated [-Wdeprecated-declarations]
+                ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+                ^
+/usr/include/openssl/engine.h:450:1: note: 'ENGINE_ctrl_cmd' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+7 warnings generated.
+make[1]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/Makefile:598: scripts] Error 2
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTBO_OBJ'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 31% 314/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/wifihal_vendor.cpp
+[ 31% 315/989] Building dtb.img
+FAILED: out/target/product/miatoll/dtb.img
+/bin/bash -c "(PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    vendor/xiaomi/miatoll_defconfig ) && (PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    dtbs ) && (cat \$(find out/target/product/miatoll/obj/DTB_OBJ/arch/arm64/boot/dts -type f -name \"*.dtb\" | sort) > out/target/product/miatoll/dtb.img )"
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/basic/fixdep
+  GEN     ./Makefile
+  HOSTCC  scripts/basic/bin2c
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/kconfig/zconf.tab.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+WARNING: Disabling clang-specific options with gcc
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --silentoldconfig Kconfig
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/uapi/linux/version.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  UPD     include/config/kernel.release
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/utsrelease.h
+  UPD     include/generated/utsrelease.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/conmakehash
+  HOSTCC  scripts/genksyms/genksyms.o
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/sortextable
+  SHIPPED scripts/genksyms/parse.tab.c
+/bin/sh: 1: ld.lld: not found
+  SHIPPED scripts/genksyms/lex.lex.c
+  HOSTCC  scripts/dtc/dtc.o
+  HOSTCC  scripts/asn1_compiler
+  SHIPPED scripts/genksyms/parse.tab.h
+  HOSTCC  scripts/dtc/flattree.o
+  CC      scripts/mod/empty.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/mod/mk_elfconfig
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/dtc/fstree.o
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/genksyms/lex.lex.o
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/selinux/genheaders/genheaders
+/bin/sh: 1: ld.lld: not found
+clang-11clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/selinux/mdp/mdp
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/sign-file
+  CC      scripts/mod/devicetable-offsets.s
+  HOSTCC  scripts/dtc/data.o
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/dtc/treesource.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/srcpos.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/checks.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/dtc/util.o
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:365: scripts/mod/empty.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+  SHIPPED scripts/dtc/dtc-lexer.lex.c
+  SHIPPED scripts/dtc/dtc-parser.tab.h
+  SHIPPED scripts/dtc/dtc-parser.tab.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTLD  scripts/genksyms/genksyms
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:160: scripts/mod/devicetable-offsets.s] Error 1
+make[2]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:678: scripts/mod] Error 2
+make[2]: *** Waiting for unfinished jobs....
+  HOSTLD  scripts/dtc/dtc
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:89:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while ((e = ERR_get_error_line(&file, &line))) {
+                    ^
+/usr/include/openssl/err.h:422:1: note/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c: :'ERR_get_error_line' has been explicitly marked deprecated here46
+:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49:         while ((e = ERR_get_error_line(&file, &line))) {note
+:                     ^
+expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+/usr/include/openssl/err.h:422:#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)1
+:                                                 ^note
+: 'ERR_get_error_line' has been explicitly marked deprecated here
+/usr/include/openssl/macros.h:62:OSSL_DEPRECATEDIN_3_052
+^:
+ note: expanded from macro 'OSSL_DEPRECATED'
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))/usr/include/openssl/macros.h
+:62                                                   ^:
+52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:59:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while (ERR_get_error_line(&file, &line)) {}
+               ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:102:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+        while (ERR_get_error_line(&file, &line)) {}#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+
+               ^                                                   ^
+
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:142:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:144:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^
+/usr/include/openssl/engine.h:336:1: note: 'ENGINE_by_id' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:124:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:146:7: #   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+warning                                                ^: 
+'ENGINE_init' is deprecated [-Wdeprecated-declarations]/usr/include/openssl/macros.h
+:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+                if (ENGINE_init(e))
+                    ^
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))/usr/include/openssl/engine.h
+:                                                   ^
+620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:126:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+
+^/usr/include/openssl/engine.h
+:336:1: note: /usr/include/openssl/macros.h'ENGINE_by_id' has been explicitly marked deprecated here
+:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:/usr/include/openssl/macros.h62:62::5252::  notenote: expanded from macro 'OSSL_DEPRECATED': 
+expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:128:7: warning: 'ENGINE_init' is deprecated [-Wdeprecated-declarations]
+                if (ENGINE_init(e))
+                    ^
+/usr/include/openssl/engine.h:620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:151:#     define OSSL_DEPRECATED(since) __attribute__((deprecated))9
+                                                   ^:
+ warning: 'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]
+                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:133:9: OSSL_DEPRECATEDIN_3_0warning: 
+'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]^
+
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)49:
+                                                 ^note: 
+expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+
+                                                   ^
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:134:3: warning: 'ENGINE_ctrl_cmd' is deprecated [-Wdeprecated-declarations]
+                ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+                ^
+/usr/include/openssl/engine.h:/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c450::1153: :note17: 'ENGINE_ctrl_cmd' has been explicitly marked deprecated here:
+ warning: 'ENGINE_load_private_key' is deprecated [-Wdeprecated-declarations]
+OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+                private_key = ENGINE_load_private_key(e, private_key_name,
+                              ^
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)/usr/include/openssl/engine.h
+:                                                ^
+637:/usr/include/openssl/macros.h1::62: 52note::  note'ENGINE_load_private_key' has been explicitly marked deprecated here: 
+expanded from macro 'OSSL_DEPRECATED'
+OSSL_DEPRECATEDIN_3_0
+^
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+7 warnings generated.
+7 warnings generated.
+make[1]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/Makefile:598: scripts] Error 2
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/DTB_OBJ'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 31% 316/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/wifilogger_diag.cpp
+[ 32% 317/989] Building Kernel Image (Image)
+FAILED: out/target/product/miatoll/obj/KERNEL_OBJ/arch/arm64/boot/Image
+/bin/bash -c "(PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    Image ) && (if grep -q '^CONFIG_OF=y' out/target/product/miatoll/obj/KERNEL_OBJ/.config; then 			echo \"Building DTBs\"; 			PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    dtbs; 		fi ) && (if grep -q '=m' out/target/product/miatoll/obj/KERNEL_OBJ/.config; then 			echo \"Building Kernel Modules\"; 			PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    modules || exit \"\$?\"; 			echo \"Installing Kernel Modules\"; 			PATH=/home/ubuntu/lemonage/out/host/linux-x86/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/home/ubuntu/lemonage/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/home/ubuntu/lemonage/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/home/ubuntu/lemonage/prebuilts/build-tools/common/bison /home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/make  -j15 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" LD=ld.lld AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTCC=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/home/ubuntu/lemonage/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/flex YACC=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/bison M4=/home/ubuntu/lemonage/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/sm6250 O=/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ ARCH=arm64 CROSS_COMPILE=\"/usr/bin/ccache /home/ubuntu/lemonage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CROSS_COMPILE_COMPAT=\"/home/ubuntu/lemonage/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\"    INSTALL_MOD_PATH=/home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/kernel_modules_intermediates INSTALL_MOD_STRIP=1 modules_install; 			kernel_release=\$(cat out/target/product/miatoll/obj/KERNEL_OBJ/include/config/kernel.release) 			kernel_modules_dir=/home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/kernel_modules_intermediates/lib/modules/\$kernel_release 			; 			modules=\$(find \$kernel_modules_dir -type f -name '*.ko'); 			(    mkdir -p out/target/product/miatoll/vendor/lib/modules ) && (cp \$modules out/target/product/miatoll/vendor/lib/modules/ ) && (rm -rf /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates ) && (mkdir -p /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/vendor/lib/modules ) && (cp \$modules /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/vendor/lib/modules ) && (out/host/linux-x86/bin/depmod -b /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates 0.0 ) && (sed -e 's/\\(.*modules.*\\):/\\/\\1:/g' -e 's/ \\([^ ]*modules[^ ]*\\)/ \\/\\1/g' /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/modules.dep > out/target/product/miatoll/vendor/lib/modules/modules.dep ) && (cp /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/modules.softdep out/target/product/miatoll/vendor/lib/modules ) && (cp /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/modules.alias out/target/product/miatoll/vendor/lib/modules ) && (rm -f out/target/product/miatoll/vendor/lib/modules/modules.load ) && (for MODULE in ; do basename \$MODULE >> out/target/product/miatoll/vendor/lib/modules/modules.load; done); 			 		fi )"
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+WARNING: Disabling clang-specific options with gcc
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --olddefconfig Kconfig
+#
+# configuration written to .config
+#
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+scripts/kconfig/conf  --silentoldconfig Kconfig
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/uapi/linux/version.h
+  UPD     include/config/kernel.release
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  Using /home/ubuntu/lemonage/kernel/xiaomi/sm6250 as source for kernel
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  CHK     include/generated/utsrelease.h
+  UPD     include/generated/utsrelease.h
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/kallsyms
+  HOSTCC  scripts/pnmtologo
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/conmakehash
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  HOSTCC  scripts/sortextable
+  HOSTCC  scripts/asn1_compiler
+  HOSTCC  scripts/genksyms/genksyms.o
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+/bin/sh: 1: ld.lld: not found
+  SHIPPED scripts/genksyms/parse.tab.c
+  SHIPPED scripts/genksyms/parse.tab.h
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/selinux/genheaders/genheaders
+  SHIPPED scripts/genksyms/lex.lex.c
+  HOSTCC  scripts/mod/mk_elfconfig
+  HOSTCC  scripts/dtc/flattree.o
+  HOSTCC  scripts/dtc/dtc.o
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/dtc/fstree.o
+  HOSTCC  scripts/selinux/mdp/mdp
+  HOSTCC  scripts/genksyms/lex.lex.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  CC      scripts/mod/devicetable-offsets.s
+  HOSTCC  scripts/sign-file
+  HOSTCC  scripts/dtc/data.o
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/extract-cert
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/dtc/srcpos.o
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/checks.o
+  HOSTCC  scripts/dtc/util.o
+clang-11  SHIPPED scripts/dtc/dtc-lexer.lex.c
+: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  SHIPPED scripts/dtc/dtc-parser.tab.h
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  SHIPPED scripts/dtc/dtc-parser.tab.c
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+  HOSTLD  scripts/genksyms/genksyms
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:365: scripts/mod/empty.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+clang-11: warning: argument unused during compilation: '-fuse-ld=lld' [-Wunused-command-line-argument]
+In file included from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler_types.h:58:0,
+                 from /home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/kconfig.h:74,
+                 from <command-line>:0:
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/include/linux/compiler-gcc.h:160:3: error: #error Sorry, your version of GCC is too old - please use 5.1 or newer.
+ # error Sorry, your version of GCC is too old - please use 5.1 or newer.
+   ^
+make[3]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:160: scripts/mod/devicetable-offsets.s] Error 1
+make[2]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/Makefile.build:678: scripts/mod] Error 2
+make[2]: *** Waiting for unfinished jobs....
+  HOSTLD  scripts/dtc/dtc
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:46:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while ((e = ERR_get_error_line(&file, &line))) {
+                    ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:59:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while (ERR_get_error_line(&file, &line)) {}
+               ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:124:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:126:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^
+/usr/include/openssl/engine.h:336:1: note: 'ENGINE_by_id' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:128:7: warning: 'ENGINE_init' is deprecated [-Wdeprecated-declarations]
+                if (ENGINE_init(e))
+                    ^
+/usr/include/openssl/engine.h:620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:133:9: warning: 'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]
+                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0), "Set PKCS#11 PIN");
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/extract-cert.c:134:3: warning: 'ENGINE_ctrl_cmd' is deprecated [-Wdeprecated-declarations]
+                ENGINE_ctrl_cmd(e, "LOAD_CERT_CTRL", 0, &parms, NULL, 1);
+                ^
+/usr/include/openssl/engine.h:450:1: note: 'ENGINE_ctrl_cmd' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_ctrl_cmd(ENGINE *e, const char *cmd_name,
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:89:14: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while ((e = ERR_get_error_line(&file, &line))) {
+                    ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:102:9: warning: 'ERR_get_error_line' is deprecated [-Wdeprecated-declarations]
+        while (ERR_get_error_line(&file, &line)) {}
+               ^
+/usr/include/openssl/err.h:422:1: note: 'ERR_get_error_line' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:142:3: warning: 'ENGINE_load_builtin_engines' is deprecated [-Wdeprecated-declarations]
+                ENGINE_load_builtin_engines();
+                ^
+/usr/include/openssl/engine.h:358:1: note: 'ENGINE_load_builtin_engines' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 void ENGINE_load_builtin_engines(void);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:144:7: warning: 'ENGINE_by_id' is deprecated [-Wdeprecated-declarations]
+                e = ENGINE_by_id("pkcs11");
+                    ^
+/usr/include/openssl/engine.h:336:1: note: 'ENGINE_by_id' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 ENGINE *ENGINE_by_id(const char *id);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:146:7: warning: 'ENGINE_init' is deprecated [-Wdeprecated-declarations]
+                if (ENGINE_init(e))
+                    ^
+/usr/include/openssl/engine.h:620:1: note: 'ENGINE_init' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0 int ENGINE_init(ENGINE *e);
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:151:9: warning: 'ENGINE_ctrl_cmd_string' is deprecated [-Wdeprecated-declarations]
+                        ERR(!ENGINE_ctrl_cmd_string(e, "PIN", key_pass, 0),
+                             ^
+/usr/include/openssl/engine.h:478:1: note: 'ENGINE_ctrl_cmd_string' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+/home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/sign-file.c:153:17: warning: 'ENGINE_load_private_key' is deprecated [-Wdeprecated-declarations]
+                private_key = ENGINE_load_private_key(e, private_key_name,
+                              ^
+/usr/include/openssl/engine.h:637:1: note: 'ENGINE_load_private_key' has been explicitly marked deprecated here
+OSSL_DEPRECATEDIN_3_0
+^
+/usr/include/openssl/macros.h:182:49: note: expanded from macro 'OSSL_DEPRECATEDIN_3_0'
+#   define OSSL_DEPRECATEDIN_3_0                OSSL_DEPRECATED(3.0)
+                                                ^
+/usr/include/openssl/macros.h:62:52: note: expanded from macro 'OSSL_DEPRECATED'
+#     define OSSL_DEPRECATED(since) __attribute__((deprecated))
+                                                   ^
+7 warnings generated.
+7 warnings generated.
+make[1]: *** [/home/ubuntu/lemonage/kernel/xiaomi/sm6250/Makefile:598: scripts] Error 2
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 32% 318/989] target  C++: libwifi-hal-qcom <= hardware/qcom-caf/wlan/qcwcn/wifi_hal/wificonfig.cpp
+[ 32% 319/989] target  C: libexthwplugin <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/ext_hw_plugin.c
+[ 32% 320/989] target  C: liba2dpoffload <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/a2dp.c
+[ 32% 321/989] target  C: libspkrprot <= hardware/qcom-caf/sm8150/audio/hal/audio_extn/spkr_protection.c
+[ 32% 322/989] target  C: audio.primary.atoll <= hardware/qcom-caf/sm8150/audio/hal/msm8974/platform.c
+ninja: build stopped: subcommand failed.
+21:25:16 ninja failed with: exit status 1
+
+[0;31m#### failed to build some targets (03:09 (mm:ss)) ####[00m
+
