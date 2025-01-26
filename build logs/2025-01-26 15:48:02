@@ -1,0 +1,1852 @@
+15:48:02 Build sandboxing disabled due to nsjail error.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=11
+LINEAGE_VERSION=18.1-20250126-UNOFFICIAL-miatoll
+TARGET_PRODUCT=lineage_miatoll
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-2a
+TARGET_CPU_VARIANT=cortex-a76
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a76
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.8.0-1021-aws-x86_64-Ubuntu-24.04.1-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=RQ3A.211001.001
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/xiaomi/sm6250-common hardware/google/interfaces hardware/google/pixel hardware/xiaomi vendor/qcom/opensource/usb/etc vendor/xiaomi/sm6250-common device/xiaomi/miatoll vendor/xiaomi/miatoll hardware/qcom-caf/sm8150 vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices packages/apps/Bluetooth
+============================================
+ninja: no work to do.
+[  0% 1/866] glob AdbTest.prof
+[  0% 2/866] glob AppOpsUserServiceAidlNative-java.prof
+[  0% 3/866] glob AppPredictionService.prof
+[  0% 4/866] glob AppWidgetHostTest.prof
+[  0% 5/866] glob ANGLE.prof
+[  0% 6/866] glob AntHalService-Soong.prof
+[  0% 7/866] glob AppcompatPhotoViewerSample.prof
+[  0% 8/866] glob AutoVerifyTest2.prof
+[  1% 9/866] glob AppWidgetProvider.prof
+[  1% 10/866] glob AudioFX.prof
+[  1% 11/866] glob AutoVerifyTest3.prof
+[  1% 12/866] glob AutoVerifyTest4.prof
+[  1% 13/866] glob AutoVerifyTest.prof
+[  1% 14/866] glob AutofillKeyboard.prof
+[  1% 15/866] glob BATestApp.prof
+[  1% 16/866] glob BackupEncryption.prof
+[  1% 17/866] glob BackupFrameworksServicesLib.prof
+[  2% 18/866] glob BackupRestoreConfirmation.prof
+[  2% 19/866] glob BasicDreams.prof
+[  2% 20/866] glob BasicSmsReceiver.prof
+[  2% 21/866] glob BlockedNumberProvider.prof
+[  2% 22/866] glob BluetoothDebug.prof
+[  2% 23/866] glob BluetoothMidiService.prof
+[  2% 24/866] glob Bluetooth.prof
+[  2% 25/866] glob BookmarkProvider.prof
+[  3% 26/866] glob BrokenKeyDerivation.prof
+[  3% 27/866] glob BuiltInPrintService.prof
+[  3% 28/866] glob CalendarProvider.prof
+[  3% 29/866] glob CallLogBackup.prof
+[  3% 30/866] glob CaptivePortalLogin.prof
+[  3% 31/866] glob CarActivityResolver.prof
+[  3% 32/866] glob CarArchCommon.prof
+[  3% 33/866] glob CarMediaCommon.prof
+[  3% 34/866] glob CarService.prof
+[  4% 35/866] glob CarSetupWizardLib.prof
+[  4% 36/866] glob CarSystemUI.prof
+[  4% 37/866] glob CarShell.prof
+[  4% 38/866] glob CarTelephonyCommonForTesting.prof
+[  4% 39/866] glob CarUiRobolectricTestApp.prof
+[  4% 40/866] glob CarrierConfig.prof
+[  4% 41/866] glob CarrierDefaultApp.prof
+[  4% 42/866] glob CellBroadcastAppPlatform.prof
+[  4% 43/866] glob CellBroadcastApp.prof
+[  5% 44/866] glob CellBroadcastLegacyApp.prof
+[  5% 45/866] glob CellBroadcastServiceModulePlatform.prof
+[  5% 46/866] glob CellBroadcastServiceModule.prof
+[  5% 47/866] glob CertInstaller.prof
+[  5% 48/866] glob ConfURIDialer.prof
+[  5% 49/866] glob CompanionDeviceManager.prof
+[  5% 50/866] glob ContactsProvider.prof
+[  5% 51/866] glob Contacts.prof
+[  6% 52/866] glob CustomLocale.prof
+[  6% 53/866] glob DeskClock.prof
+[  6% 54/866] glob DirectRenderingCluster.prof
+[  6% 55/866] glob DocumentsUI.prof
+[  6% 56/866] glob DownloadProviderUi.prof
+[  6% 57/866] glob DownloadProvider.prof
+[  6% 58/866] glob DozeTest.prof
+[  6% 59/866] glob DynamicSystemInstallationService.prof
+[  6% 60/866] glob EasterEgg.prof
+[  7% 61/866] glob EmbmsTestService.prof
+[  7% 62/866] glob Eleven.prof
+[  7% 63/866] glob EmergencyInfo.prof
+[  7% 64/866] glob EncryptedLocalTransport.prof
+[  7% 65/866] glob Etar.prof
+[  7% 66/866] glob ExactCalculator.prof
+[  7% 67/866] glob ExamplePlugin.prof
+[  7% 68/866] glob ExperimentalCarService.prof
+[  7% 69/866] glob ExtServices.prof
+[  8% 70/866] glob ExtShared.prof
+[  8% 71/866] glob ExternalStorageProvider.prof
+[  8% 72/866] glob FM2.prof
+[  8% 73/866] glob FakeOemFeatures.prof
+[  8% 74/866] glob Fallback.prof
+[  8% 75/866] glob FixVibrateSetting.prof
+[  8% 76/866] glob FlipFlap.prof
+[  8% 77/866] glob FrameSequenceSample.prof
+[  9% 78/866] glob FrameworksServicesLib.prof
+[  9% 79/866] glob FusedLocation.prof
+[  9% 80/866] glob GL2CameraEye.prof
+[  9% 81/866] glob GL2JNI.prof
+[  9% 82/866] glob GL2Java.prof
+[  9% 83/866] glob GLDual.prof
+[  9% 84/866] glob GLJNI.prof
+[  9% 85/866] glob GLPerf.prof
+[  9% 86/866] glob HTMLViewer.prof
+[ 10% 87/866] glob HapticAssessment.prof
+[ 10% 88/866] glob HelloSpellChecker.prof
+[ 10% 89/866] glob IBinderNdkUnitTest-java.prof
+[ 10% 90/866] glob IBinderVendorDoubleLoadTest-java.prof
+[ 10% 91/866] glob ImsTestApp.prof
+[ 10% 92/866] glob InProcessNetworkStack.prof
+[ 10% 93/866] glob InProcessTethering.prof
+[ 10% 94/866] glob InlineFillService.prof
+[ 10% 95/866] glob InputDevices.prof
+[ 11% 96/866] glob Jelly.prof
+[ 11% 97/866] glob KeyChain.prof
+[ 11% 98/866] glob LargeAssetTest.prof
+[ 11% 99/866] glob LatinIME.prof
+[ 11% 100/866] glob JobSchedulerTestApp.prof
+[ 11% 101/866] glob LceDemo.prof
+[ 11% 102/866] glob LeanbackIME.prof
+[ 11% 103/866] glob LineageParts.prof
+[ 12% 104/866] glob LineageSettingsProvider.prof
+[ 12% 105/866] glob LineageSetupWizard.prof
+[ 12% 106/866] glob LinkViewer.prof
+[ 12% 107/866] glob LiveTv.prof
+[ 12% 108/866] glob LiveWallpapersPicker.prof
+[ 12% 109/866] glob LocalContactsBackup.prof
+[ 12% 110/866] glob LocalTransport.prof
+[ 12% 111/866] glob LotsOfApps.prof
+[ 12% 112/866] glob ManagedProvisioning.prof
+[ 13% 113/866] glob MediaDump.prof
+[ 13% 114/866] glob MediaProviderDialogsTool.prof
+[ 13% 115/866] glob MediaProviderLegacy.prof
+[ 13% 116/866] glob MediaProvider.prof
+[ 13% 117/866] glob MissileLauncher.prof
+[ 13% 118/866] glob MultiDisplayProvider.prof
+[ 13% 119/866] glob MmsService.prof
+[ 13% 120/866] glob MultiWindow.prof
+[ 13% 121/866] glob MtpService.prof
+[ 14% 122/866] glob NQNfcNci.prof
+[ 14% 123/866] glob NetflixConfig.prof
+[ 14% 124/866] glob NetworkPermissionConfig.prof
+[ 14% 125/866] glob NetworkStack.prof
+[ 14% 126/866] glob NetworkStackNext.prof
+[ 14% 127/866] glob NfcNci.prof
+[ 14% 128/866] glob Nfc.prof
+[ 14% 129/866] glob NsdChat.prof
+[ 15% 130/866] glob NxpDTA.prof
+[ 15% 131/866] glob ONS.prof
+[ 15% 132/866] glob OneMedia.prof
+[ 15% 133/866] glob OneTimeInitializer.prof
+[ 15% 134/866] glob OsuLogin.prof
+[ 15% 135/866] glob PacProcessor.prof
+[ 15% 136/866] glob PackageInstaller.prof
+[ 15% 137/866] glob PartnerBookmarksProvider.prof
+[ 15% 138/866] glob PartnerSupportSampleTvInput.prof
+[ 16% 139/866] glob PermissionController.prof
+[ 16% 140/866] glob PhotoTable.prof
+[ 16% 141/866] glob PhotoViewerSample.prof
+[ 16% 142/866] glob PlatformCaptivePortalLogin.prof
+[ 16% 143/866] glob PlatformNetworkPermissionConfig.prof
+[ 16% 144/866] glob PluginDummyLib.prof
+[ 16% 145/866] glob PrintRecommendationService.prof
+[ 16% 146/866] glob PresencePolling.prof
+[ 16% 147/866] glob PrintSpooler.prof
+[ 17% 148/866] glob Profiles.prof
+[ 17% 149/866] glob Provision.prof
+[ 17% 150/866] glob ProxyHandler.prof
+[ 17% 151/866] glob RcsService.prof
+[ 17% 152/866] glob QuickAccessWallet.prof
+[ 17% 153/866] glob Recorder.prof
+[ 17% 154/866] glob RecoveryLocalizer.prof
+[ 17% 155/866] glob RotaryIME.prof
+[ 18% 156/866] glob SafetyRegulatoryInfo.prof
+[ 18% 157/866] glob SampleDvbTuner.prof
+[ 18% 158/866] glob SampleNetworkTuner.prof
+[ 18% 159/866] glob SampleSpellCheckerService.prof
+[ 18% 160/866] glob SdkSetup.prof
+[ 18% 161/866] glob SecondaryHomeApp.prof
+[ 18% 162/866] glob SecureElement.prof
+[ 18% 163/866] glob SettingsIntelligence.prof
+[ 18% 164/866] glob Seedvault.prof
+[ 19% 165/866] glob SettingsLibShell.prof
+[ 19% 166/866] glob SettingsProvider.prof
+[ 19% 167/866] glob SettingsRoboTestStub.prof
+[ 19% 168/866] glob SharedLibrary.prof
+[ 19% 169/866] glob Settings.prof
+[ 19% 170/866] glob Shell.prof
+[ 19% 171/866] glob SharedStorageBackup.prof
+[ 19% 172/866] glob SimAppDialog.prof
+[ 19% 173/866] glob SimpleDeviceConfig.prof
+[ 20% 174/866] glob SmsManagerTestApp.prof
+[ 20% 175/866] glob SoftKeyboard.prof
+[ 20% 176/866] glob SoundPicker.prof
+[ 20% 177/866] glob SoundTriggerTestApp.prof
+[ 20% 178/866] glob StatementService.prof
+[ 20% 179/866] glob SystemUI.prof
+[ 20% 180/866] glob SystemUpdaterSample.prof
+[ 20% 181/866] glob Tag.prof
+[ 21% 182/866] glob Stk.prof
+[ 21% 183/866] glob TeleService.prof
+[ 21% 184/866] glob TelephonyProvider.prof
+[ 21% 185/866] glob Telecom.prof
+[ 21% 186/866] glob TestEGL.prof
+[ 21% 187/866] glob TestFramerate.prof
+[ 21% 188/866] glob TestLatency.prof
+[ 21% 189/866] glob TestNetworkStack.prof
+[ 21% 190/866] glob Tethering.prof
+[ 22% 191/866] glob TestViewport.prof
+[ 22% 192/866] glob TextClassifierService.prof
+[ 22% 193/866] glob ThemePlayground.prof
+[ 22% 194/866] glob Traceur.prof
+[ 22% 195/866] glob TransitionTests.prof
+[ 22% 196/866] glob TvProvider.prof
+[ 22% 197/866] glob TvProvision.prof
+[ 22% 198/866] glob TvSettings.prof
+[ 22% 199/866] glob UniversalMediaPlayer.prof
+[ 23% 200/866] glob UserDictionaryProvider.prof
+[ 23% 201/866] glob VoiceEnrollment.prof
+[ 23% 202/866] glob VpnDialogs.prof
+[ 23% 203/866] glob UsbHostExternalManagementTestApp.prof
+[ 23% 204/866] glob UserSwitchMonitorApp.prof
+[ 23% 205/866] glob WAPPushManager.prof
+[ 23% 206/866] glob WallpaperBackup.prof
+[ 23% 207/866] glob WallpaperCropper.prof
+[ 24% 208/866] glob WallpaperTest.prof
+[ 24% 209/866] glob WfdCommon.prof
+[ 24% 210/866] glob WidgetPreview.prof
+[ 24% 211/866] glob aidl_test_loggable_interface-java.prof
+[ 24% 212/866] glob am.prof
+[ 24% 213/866] glob adbroot_aidl_interface-java.prof
+[ 24% 214/866] glob android.car.userlib.prof
+[ 24% 215/866] glob android.car.prof
+[ 24% 216/866] glob android.car.watchdoglib.prof
+[ 25% 217/866] glob android.frameworks.automotive.display-V1.0-java-shallow.prof
+[ 25% 218/866] glob android.frameworks.automotive.display-V1.0-java.prof
+[ 25% 219/866] glob android.frameworks.bufferhub-V1.0-java-shallow.prof
+[ 25% 220/866] glob android.frameworks.bufferhub-V1.0-java.prof
+[ 25% 221/866] glob android.frameworks.cameraservice.common-V2.0-java.prof
+[ 25% 222/866] glob android.frameworks.displayservice-V1.0-java-shallow.prof
+[ 25% 223/866] glob android.frameworks.cameraservice.common-V2.0-java-shallow.prof
+[ 25% 224/866] glob android.frameworks.schedulerservice-V1.0-java-shallow.prof
+[ 25% 225/866] glob android.frameworks.displayservice-V1.0-java.prof
+[ 26% 226/866] glob android.frameworks.schedulerservice-V1.0-java.prof
+[ 26% 227/866] glob android.frameworks.stats-V1.0-java-shallow.prof
+[ 26% 228/866] glob android.frameworks.stats-V1.0-java.prof
+[ 26% 229/866] glob android.hardware.atrace-V1.0-java-shallow.prof
+[ 26% 230/866] glob android.hardware.atrace-V1.0-java.prof
+[ 26% 231/866] glob android.hardware.audio.common-V2.0-java-shallow.prof
+[ 26% 232/866] glob android.hardware.audio.common-V2.0-java.prof
+[ 26% 233/866] glob android.hardware.audio.common-V4.0-java-shallow.prof
+[ 27% 234/866] glob android.hardware.audio.common-V4.0-java.prof
+[ 27% 235/866] glob android.hardware.audio.common-V5.0-java-shallow.prof
+[ 27% 236/866] glob android.hardware.audio.common-V5.0-java.prof
+[ 27% 237/866] glob android.hardware.audio.common-V6.0-java-shallow.prof
+[ 27% 238/866] glob android.hardware.audio.common-V6.0-java.prof
+[ 27% 239/866] glob android.hardware.authsecret-V1.0-java-shallow.prof
+[ 27% 240/866] glob android.hardware.authsecret-V1.0-java.prof
+[ 27% 241/866] glob android.hardware.automotive.audiocontrol-V1.0-java-shallow.prof
+[ 27% 242/866] glob android.hardware.automotive.audiocontrol-V1.0-java.prof
+[ 28% 243/866] glob android.hardware.automotive.audiocontrol-V2.0-java-shallow.prof
+[ 28% 244/866] glob android.hardware.automotive.audiocontrol-V2.0-java.prof
+[ 28% 245/866] glob android.hardware.automotive.can-V1.0-java-shallow.prof
+[ 28% 246/866] glob android.hardware.automotive.can-V1.0-java.prof
+[ 28% 247/866] glob android.hardware.automotive.evs-V1.0-java-shallow.prof
+[ 28% 248/866] glob android.hardware.automotive.evs-V1.0-java.prof
+[ 28% 249/866] glob android.hardware.automotive.occupant_awareness-V1-java.prof
+[ 28% 250/866] glob android.hardware.automotive.occupant_awareness-java.prof
+[ 28% 251/866] glob android.hardware.automotive.occupant_awareness-unstable-java.prof
+[ 29% 252/866] glob android.hardware.automotive.sv-V1.0-java-shallow.prof
+[ 29% 253/866] glob android.hardware.automotive.sv-V1.0-java.prof
+[ 29% 254/866] glob android.hardware.automotive.vehicle-V2.0-java-shallow.prof
+[ 29% 255/866] glob android.hardware.automotive.vehicle-V2.0-java.prof
+[ 29% 256/866] glob android.hardware.biometrics.face-V1.0-java-shallow.prof
+[ 29% 257/866] glob android.hardware.biometrics.fingerprint-V2.1-java-shallow.prof
+[ 29% 258/866] glob android.hardware.biometrics.face-V1.0-java.prof
+[ 29% 259/866] glob android.hardware.biometrics.fingerprint-V2.1-java.prof
+[ 30% 260/866] glob android.hardware.biometrics.fingerprint-V2.2-java-shallow.prof
+[ 30% 261/866] glob android.hardware.biometrics.fingerprint-V2.2-java.prof
+[ 30% 262/866] glob android.hardware.bluetooth-V1.0-java-shallow.prof
+[ 30% 263/866] glob android.hardware.bluetooth-V1.0-java.prof
+[ 30% 264/866] glob android.hardware.bluetooth-V1.1-java-shallow.prof
+[ 30% 265/866] glob android.hardware.boot-V1.0-java-shallow.prof
+[ 30% 266/866] glob android.hardware.bluetooth-V1.1-java.prof
+[ 30% 267/866] glob android.hardware.boot-V1.0-java.prof
+[ 30% 268/866] glob android.hardware.boot-V1.1-java-shallow.prof
+[ 31% 269/866] glob android.hardware.boot-V1.1-java.prof
+[ 31% 270/866] glob android.hardware.broadcastradio-V2.0-java-shallow.prof
+[ 31% 271/866] glob android.hardware.broadcastradio-V2.0-java.prof
+[ 31% 272/866] glob android.hardware.camera.common-V1.0-java-shallow.prof
+[ 31% 273/866] glob android.hardware.camera.common-V1.0-java.prof
+[ 31% 274/866] glob android.hardware.camera.device-V1.0-java-shallow.prof
+[ 31% 275/866] glob android.hardware.camera.device-V1.0-java.prof
+[ 31% 276/866] glob android.hardware.camera.metadata-V3.2-java-shallow.prof
+[ 31% 277/866] glob android.hardware.camera.metadata-V3.2-java.prof
+[ 32% 278/866] glob android.hardware.camera.metadata-V3.3-java-shallow.prof
+[ 32% 279/866] glob android.hardware.camera.metadata-V3.3-java.prof
+[ 32% 280/866] glob android.hardware.camera.metadata-V3.4-java-shallow.prof
+[ 32% 281/866] glob android.hardware.camera.metadata-V3.4-java.prof
+[ 32% 282/866] glob android.hardware.camera.metadata-V3.5-java-shallow.prof
+[ 32% 283/866] glob android.hardware.cas-V1.0-java-shallow.prof
+[ 32% 284/866] glob android.hardware.cas-V1.0-java.prof
+[ 32% 285/866] glob android.hardware.cas-V1.1-java-shallow.prof
+[ 33% 286/866] glob android.hardware.camera.metadata-V3.5-java.prof
+[ 33% 287/866] glob android.hardware.cas-V1.1-java.prof
+[ 33% 288/866] glob android.hardware.cas-V1.2-java-shallow.prof
+[ 33% 289/866] glob android.hardware.cas-V1.2-java.prof
+[ 33% 290/866] glob android.hardware.configstore-V1.0-java-shallow.prof
+[ 33% 291/866] glob android.hardware.configstore-V1.0-java.prof
+[ 33% 292/866] glob android.hardware.configstore-V1.1-java-shallow.prof
+[ 33% 293/866] glob android.hardware.configstore-V1.1-java.prof
+[ 33% 294/866] glob android.hardware.contexthub-V1.0-java-shallow.prof
+[ 34% 295/866] glob android.hardware.contexthub-V1.0-java.prof
+[ 34% 296/866] glob android.hardware.contexthub-V1.1-java-shallow.prof
+[ 34% 297/866] glob android.hardware.contexthub-V1.1-java.prof
+[ 34% 298/866] glob android.hardware.drm-V1.0-java-shallow.prof
+[ 34% 299/866] glob android.hardware.drm-V1.0-java.prof
+[ 34% 300/866] glob android.hardware.dumpstate-V1.0-java-shallow.prof
+[ 34% 301/866] glob android.hardware.dumpstate-V1.0-java.prof
+[ 34% 302/866] glob android.hardware.dumpstate-V1.1-java-shallow.prof
+[ 34% 303/866] glob android.hardware.dumpstate-V1.1-java.prof
+[ 35% 304/866] glob android.hardware.fastboot-V1.0-java-shallow.prof
+[ 35% 305/866] glob android.hardware.fastboot-V1.0-java.prof
+[ 35% 306/866] glob android.hardware.gatekeeper-V1.0-java-shallow.prof
+[ 35% 307/866] glob android.hardware.gatekeeper-V1.0-java.prof
+[ 35% 308/866] glob android.hardware.gnss-V1.0-java-shallow.prof
+[ 35% 309/866] glob android.hardware.gnss-V1.0-java.prof
+[ 35% 310/866] glob android.hardware.gnss-V1.1-java-shallow.prof
+[ 35% 311/866] glob android.hardware.gnss-V1.1-java.prof
+[ 36% 312/866] glob android.hardware.gnss-V2.0-java-shallow.prof
+[ 36% 313/866] glob android.hardware.gnss-V2.0-java.prof
+[ 36% 314/866] glob android.hardware.gnss-V2.1-java-shallow.prof
+[ 36% 315/866] glob android.hardware.gnss.measurement_corrections-V1.0-java-shallow.prof
+[ 36% 316/866] glob android.hardware.gnss-V2.1-java.prof
+[ 36% 317/866] glob android.hardware.gnss.measurement_corrections-V1.1-java-shallow.prof
+[ 36% 318/866] glob android.hardware.gnss.measurement_corrections-V1.0-java.prof
+[ 36% 319/866] glob android.hardware.gnss.measurement_corrections-V1.1-java.prof
+[ 36% 320/866] glob android.hardware.gnss.visibility_control-V1.0-java-shallow.prof
+[ 37% 321/866] glob android.hardware.gnss.visibility_control-V1.0-java.prof
+[ 37% 322/866] glob android.hardware.graphics.bufferqueue-V1.0-java-shallow.prof
+[ 37% 323/866] glob android.hardware.graphics.bufferqueue-V1.0-java.prof
+[ 37% 324/866] glob android.hardware.graphics.bufferqueue-V2.0-java-shallow.prof
+[ 37% 325/866] glob android.hardware.graphics.bufferqueue-V2.0-java.prof
+[ 37% 326/866] glob android.hardware.graphics.common-V1.0-java-shallow.prof
+[ 37% 327/866] glob android.hardware.graphics.common-V1.0-java.prof
+[ 37% 328/866] glob android.hardware.graphics.common-V1.1-java-shallow.prof
+[ 37% 329/866] glob android.hardware.graphics.common-V1.1-java.prof
+[ 38% 330/866] glob android.hardware.graphics.common-V1.2-java-shallow.prof
+[ 38% 331/866] glob android.hardware.graphics.common-V1.2-java.prof
+[ 38% 332/866] glob android.hardware.health-V1.0-java-shallow.prof
+[ 38% 333/866] glob android.hardware.health-V1.0-java.prof
+[ 38% 334/866] glob android.hardware.health-V2.0-java.prof
+[ 38% 335/866] glob android.hardware.health-V2.0-java-shallow.prof
+[ 38% 336/866] glob android.hardware.health-V2.1-java-shallow.prof
+[ 38% 337/866] glob android.hardware.health-V2.1-java.prof
+[ 39% 338/866] glob android.hardware.health.storage-V1.0-java-shallow.prof
+[ 39% 339/866] glob android.hardware.identity-V1-java.prof
+[ 39% 340/866] glob android.hardware.health.storage-V1.0-java.prof
+[ 39% 341/866] glob android.hardware.identity-V2-java.prof
+[ 39% 342/866] glob android.hardware.identity-java.prof
+[ 39% 343/866] glob android.hardware.identity-unstable-java.prof
+[ 39% 344/866] glob android.hardware.input.classifier-V1.0-java-shallow.prof
+[ 39% 345/866] glob android.hardware.input.common-V1.0-java-shallow.prof
+[ 39% 346/866] glob android.hardware.input.common-V1.0-java.prof
+[ 40% 347/866] glob android.hardware.ir-V1.0-java.prof
+[ 40% 348/866] glob android.hardware.input.classifier-V1.0-java.prof
+[ 40% 349/866] glob android.hardware.ir-V1.0-java-shallow.prof
+[ 40% 350/866] glob android.hardware.keymaster-V1-java.prof
+[ 40% 351/866] glob android.hardware.keymaster-V2-java.prof
+[ 40% 352/866] glob android.hardware.keymaster-java.prof
+[ 40% 353/866] glob android.hardware.keymaster-unstable-java.prof
+[ 40% 354/866] glob android.hardware.light-V1-java.prof
+[ 40% 355/866] glob android.hardware.light-V2.0-java-shallow.prof
+[ 41% 356/866] glob android.hardware.light-V2.0-java.prof
+[ 41% 357/866] glob android.hardware.light-java.prof
+[ 41% 358/866] glob android.hardware.media-V1.0-java-shallow.prof
+[ 41% 359/866] glob android.hardware.media-V1.0-java.prof
+[ 41% 360/866] glob android.hardware.light-unstable-java.prof
+[ 41% 361/866] glob android.hardware.memtrack-V1.0-java-shallow.prof
+[ 41% 362/866] glob android.hardware.memtrack-V1.0-java.prof
+[ 41% 363/866] glob android.hardware.nfc-V1.0-java-shallow.prof
+[ 42% 364/866] glob android.hardware.nfc-V1.0-java.prof
+[ 42% 365/866] glob android.hardware.nfc-V1.1-java-shallow.prof
+[ 42% 366/866] glob android.hardware.nfc-V1.1-java.prof
+[ 42% 367/866] glob android.hardware.nfc-V1.2-java-shallow.prof
+[ 42% 368/866] glob android.hardware.nfc-V1.2-java.prof
+[ 42% 369/866] glob android.hardware.oemlock-V1.0-java.prof
+[ 42% 370/866] glob android.hardware.oemlock-V1.0-java-shallow.prof
+[ 42% 371/866] glob android.hardware.power-V1-java.prof
+[ 42% 372/866] glob android.hardware.power-V1.0-java.prof
+[ 43% 373/866] glob android.hardware.power-V1.0-java-shallow.prof
+[ 43% 374/866] glob android.hardware.power-V1.1-java-shallow.prof
+[ 43% 375/866] glob android.hardware.power-V1.1-java.prof
+[ 43% 376/866] glob android.hardware.power-V1.2-java-shallow.prof
+[ 43% 377/866] glob android.hardware.power-V1.2-java.prof
+[ 43% 378/866] glob android.hardware.power-V1.3-java-shallow.prof
+[ 43% 379/866] glob android.hardware.power-V1.3-java.prof
+[ 43% 380/866] glob android.hardware.power-unstable-java.prof
+[ 43% 381/866] glob android.hardware.radio-V1.0-java-shallow.prof
+[ 44% 382/866] glob android.hardware.power-java.prof
+[ 44% 383/866] glob android.hardware.radio-V1.0-java.prof
+[ 44% 384/866] glob android.hardware.radio-V1.1-java.prof
+[ 44% 385/866] glob android.hardware.radio-V1.2-java-shallow.prof
+[ 44% 386/866] glob android.hardware.radio-V1.2-java.prof
+[ 44% 387/866] glob android.hardware.radio-V1.3-java-shallow.prof
+[ 44% 388/866] glob android.hardware.radio-V1.3-java.prof
+[ 44% 389/866] glob android.hardware.radio-V1.4-java-shallow.prof
+[ 45% 390/866] glob android.hardware.radio-V1.4-java.prof
+[ 45% 391/866] glob android.hardware.radio-V1.5-java-shallow.prof
+[ 45% 392/866] glob android.hardware.radio-V1.5-java.prof
+[ 45% 393/866] glob android.hardware.radio.config-V1.0-java-shallow.prof
+[ 45% 394/866] glob android.hardware.radio.config-V1.0-java.prof
+[ 45% 395/866] glob android.hardware.radio.config-V1.1-java-shallow.prof
+[ 45% 396/866] glob android.hardware.radio.config-V1.1-java.prof
+[ 45% 397/866] glob android.hardware.radio.config-V1.2-java-shallow.prof
+[ 45% 398/866] glob android.hardware.radio.config-V1.2-java.prof
+[ 46% 399/866] glob android.hardware.radio.deprecated-V1.0-java-shallow.prof
+[ 46% 400/866] glob android.hardware.radio.deprecated-V1.0-java.prof
+[ 46% 401/866] glob android.hardware.rebootescrow-java.prof
+[ 46% 402/866] glob android.hardware.rebootescrow-V1-java.prof
+[ 46% 403/866] glob android.hardware.rebootescrow-unstable-java.prof
+[ 46% 404/866] glob android.hardware.secure_element-V1.0-java-shallow.prof
+[ 46% 405/866] glob android.hardware.secure_element-V1.0-java.prof
+[ 46% 406/866] glob android.hardware.secure_element-V1.1-java-shallow.prof
+[ 46% 407/866] glob android.hardware.secure_element-V1.1-java.prof
+[ 47% 408/866] glob android.hardware.radio-V1.1-java-shallow.prof
+[ 47% 409/866] glob android.hardware.secure_element-V1.2-java-shallow.prof
+[ 47% 410/866] glob android.hardware.soundtrigger-V2.0-java-shallow.prof
+[ 47% 411/866] glob android.hardware.secure_element-V1.2-java.prof
+[ 47% 412/866] glob android.hardware.soundtrigger-V2.0-java.prof
+[ 47% 413/866] glob android.hardware.soundtrigger-V2.1-java-shallow.prof
+[ 47% 414/866] glob android.hardware.soundtrigger-V2.2-java-shallow.prof
+[ 47% 415/866] glob android.hardware.soundtrigger-V2.1-java.prof
+[ 48% 416/866] glob android.hardware.soundtrigger-V2.2-java.prof
+[ 48% 417/866] glob android.hardware.soundtrigger-V2.3-java-shallow.prof
+[ 48% 418/866] glob android.hardware.soundtrigger-V2.3-java.prof
+[ 48% 419/866] glob android.hardware.tests.baz-V1.0-java-shallow.prof
+[ 48% 420/866] glob android.hardware.tests.baz-V1.0-java.prof
+[ 48% 421/866] glob android.hardware.tests.expression-V1.0-java-shallow.prof
+[ 48% 422/866] glob android.hardware.tests.expression-V1.0-java.prof
+[ 48% 423/866] glob android.hardware.tests.extension.light-V2.0-java-shallow.prof
+[ 48% 424/866] glob android.hardware.tests.extension.light-V2.0-java.prof
+[ 49% 425/866] glob android.hardware.tests.hash-V1.0-java-shallow.prof
+[ 49% 426/866] glob android.hardware.tests.hash-V1.0-java.prof
+[ 49% 427/866] glob android.hardware.tests.inheritance-V1.0-java-shallow.prof
+[ 49% 428/866] glob android.hardware.tests.inheritance-V1.0-java.prof
+[ 49% 429/866] glob android.hardware.tests.lazy-V1.0-java-shallow.prof
+[ 49% 430/866] glob android.hardware.tests.lazy-V1.0-java.prof
+[ 49% 431/866] glob android.hardware.tests.libhwbinder-V1.0-java-shallow.prof
+[ 49% 432/866] glob android.hardware.tests.libhwbinder-V1.0-java.prof
+[ 50% 433/866] glob android.hardware.tests.memory-V1.0-java-shallow.prof
+[ 50% 434/866] glob android.hardware.tests.memory-V1.0-java.prof
+[ 50% 435/866] glob android.hardware.tests.memory-V2.0-java-shallow.prof
+[ 50% 436/866] glob android.hardware.tests.multithread-V1.0-java-shallow.prof
+[ 50% 437/866] glob android.hardware.tests.multithread-V1.0-java.prof
+[ 50% 438/866] glob android.hardware.tests.memory-V2.0-java.prof
+[ 50% 439/866] glob android.hardware.tests.safeunion-V1.0-java-shallow.prof
+[ 50% 440/866] glob android.hardware.tests.safeunion-V1.0-java.prof
+[ 50% 441/866] glob android.hardware.tests.trie-V1.0-java-shallow.prof
+[ 51% 442/866] glob android.hardware.tests.trie-V1.0-java.prof
+[ 51% 443/866] glob android.hardware.tetheroffload.config-V1.0-java-shallow.prof
+[ 51% 444/866] glob android.hardware.tetheroffload.config-V1.0-java.prof
+[ 51% 445/866] glob android.hardware.tetheroffload.control-V1.0-java-shallow.prof
+[ 51% 446/866] glob android.hardware.tetheroffload.control-V1.0-java.prof
+[ 51% 447/866] glob android.hardware.thermal-V1.0-java-shallow.prof
+[ 51% 448/866] glob android.hardware.thermal-V1.0-java.prof
+[ 51% 449/866] glob android.hardware.thermal-V1.1-java-shallow.prof
+[ 51% 450/866] glob android.hardware.thermal-V1.1-java.prof
+[ 52% 451/866] glob android.hardware.thermal-V2.0-java.prof
+[ 52% 452/866] glob android.hardware.tv.cec-V1.0-java-shallow.prof
+[ 52% 453/866] glob android.hardware.thermal-V2.0-java-shallow.prof
+[ 52% 454/866] glob android.hardware.tv.cec-V2.0-java-shallow.prof
+[ 52% 455/866] glob android.hardware.tv.cec-V1.0-java.prof
+[ 52% 456/866] glob android.hardware.tv.cec-V2.0-java.prof
+[ 52% 457/866] glob android.hardware.tv.input-V1.0-java-shallow.prof
+[ 52% 458/866] glob android.hardware.tv.input-V1.0-java.prof
+[ 53% 459/866] glob android.hardware.usb-V1.0-java-shallow.prof
+[ 53% 460/866] glob android.hardware.usb-V1.1-java.prof
+[ 53% 461/866] glob android.hardware.usb-V1.0-java.prof
+[ 53% 462/866] glob android.hardware.usb-V1.1-java-shallow.prof
+[ 53% 463/866] glob android.hardware.usb-V1.2-java-shallow.prof
+[ 53% 464/866] glob android.hardware.usb-V1.2-java.prof
+[ 53% 465/866] glob android.hardware.usb.gadget-V1.0-java-shallow.prof
+[ 53% 466/866] glob android.hardware.usb.gadget-V1.0-java.prof
+[ 53% 467/866] glob android.hardware.usb.gadget-V1.1-java-shallow.prof
+[ 54% 468/866] glob android.hardware.usb.gadget-V1.1-java.prof
+[ 54% 469/866] glob android.hardware.vibrator-V1-java.prof
+[ 54% 470/866] glob android.hardware.vibrator-V1.0-java-shallow.prof
+[ 54% 471/866] glob android.hardware.vibrator-V1.0-java.prof
+[ 54% 472/866] glob android.hardware.vibrator-V1.1-java-shallow.prof
+[ 54% 473/866] glob android.hardware.vibrator-V1.1-java.prof
+[ 54% 474/866] glob android.hardware.vibrator-V1.2-java-shallow.prof
+[ 54% 475/866] glob android.hardware.vibrator-V1.2-java.prof
+[ 54% 476/866] glob android.hardware.vibrator-V1.3-java-shallow.prof
+[ 55% 477/866] glob android.hardware.vibrator-V1.3-java.prof
+[ 55% 478/866] glob android.hardware.vibrator-java.prof
+[ 55% 479/866] glob android.hardware.vibrator-unstable-java.prof
+[ 55% 480/866] glob android.hardware.vr-V1.0-java-shallow.prof
+[ 55% 481/866] glob android.hardware.vr-V1.0-java.prof
+[ 55% 482/866] glob android.hardware.weaver-V1.0-java-shallow.prof
+[ 55% 483/866] glob android.hardware.weaver-V1.0-java.prof
+[ 55% 484/866] glob android.hardware.wifi-V1.0-java-shallow.prof
+[ 56% 485/866] glob android.hardware.wifi-V1.0-java.prof
+[ 56% 486/866] glob android.hardware.wifi-V1.1-java.prof
+[ 56% 487/866] glob android.hardware.wifi-V1.2-java-shallow.prof
+[ 56% 488/866] glob android.hardware.wifi-V1.1-java-shallow.prof
+[ 56% 489/866] glob android.hardware.wifi-V1.2-java.prof
+[ 56% 490/866] glob android.hardware.wifi-V1.3-java-shallow.prof
+[ 56% 491/866] glob android.hardware.wifi-V1.3-java.prof
+[ 56% 492/866] glob android.hardware.wifi-V1.4-java-shallow.prof
+[ 56% 493/866] glob android.hardware.wifi-V1.4-java.prof
+[ 57% 494/866] glob android.hardware.wifi.hostapd-V1.0-java-shallow.prof
+[ 57% 495/866] glob android.hardware.wifi.hostapd-V1.0-java.prof
+[ 57% 496/866] glob android.hardware.wifi.hostapd-V1.1-java-shallow.prof
+[ 57% 497/866] glob android.hardware.wifi.hostapd-V1.1-java.prof
+[ 57% 498/866] glob android.hardware.wifi.hostapd-V1.2-java-shallow.prof
+[ 57% 499/866] glob android.hardware.wifi.hostapd-V1.2-java.prof
+[ 57% 500/866] glob android.hardware.wifi.supplicant-V1.0-java-shallow.prof
+[ 57% 501/866] glob android.hardware.wifi.supplicant-V1.1-java-shallow.prof
+[ 57% 502/866] glob android.hardware.wifi.supplicant-V1.1-java.prof
+[ 58% 503/866] glob android.hardware.wifi.supplicant-V1.2-java-shallow.prof
+[ 58% 504/866] glob android.hardware.wifi.supplicant-V1.0-java.prof
+[ 58% 505/866] glob android.hardware.wifi.supplicant-V1.2-java.prof
+[ 58% 506/866] glob android.hardware.wifi.supplicant-V1.3-java-shallow.prof
+[ 58% 507/866] glob android.hardware.wifi.supplicant-V1.3-java.prof
+[ 58% 508/866] glob android.hidl.base-V1.0-java-shallow.prof
+[ 58% 509/866] glob android.hidl.base-V1.0-java.prof
+[ 58% 510/866] glob android.hidl.manager-V1.0-java-shallow.prof
+[ 59% 511/866] glob android.hidl.manager-V1.0-java.prof
+[ 59% 512/866] glob android.hidl.manager-V1.1-java-shallow.prof
+[ 59% 513/866] glob android.hidl.manager-V1.1-java.prof
+[ 59% 514/866] glob android.hidl.manager-V1.2-java.prof
+[ 59% 515/866] glob android.hidl.manager-V1.2-java-shallow.prof
+[ 59% 516/866] glob android.hidl.memory.block-V1.0-java-shallow.prof
+[ 59% 517/866] glob android.hidl.memory.block-V1.0-java.prof
+[ 59% 518/866] glob android.hidl.memory.token-V1.0-java-shallow.prof
+[ 59% 519/866] glob android.hidl.memory.token-V1.0-java.prof
+[ 60% 520/866] glob android.hidl.safe_union-V1.0-java-shallow.prof
+[ 60% 521/866] glob android.hidl.safe_union-V1.0-java.prof
+[ 60% 522/866] glob android.hidl.token-V1.0-java-shallow.prof
+[ 60% 523/866] glob android.net.ipsec.ike.impl.prof
+[ 60% 524/866] glob android.hidl.token-V1.0-java.prof
+[ 60% 525/866] glob android.system.net.netd-V1.0-java-shallow.prof
+[ 60% 526/866] glob android.system.net.netd-V1.0-java.prof
+[ 60% 527/866] glob android.system.net.netd-V1.1-java.prof
+[ 60% 528/866] glob android.system.net.netd-V1.1-java-shallow.prof
+[ 61% 529/866] glob android.net.ipsec.ike.prof
+[ 61% 530/866] glob android.system.suspend-V1.0-java-shallow.prof
+[ 61% 531/866] glob android.system.wifi.keystore-V1.0-java-shallow.prof
+[ 61% 532/866] glob android.system.suspend-V1.0-java.prof
+[ 61% 533/866] glob android.system.wifi.keystore-V1.0-java.prof
+[ 61% 534/866] glob android.test.base.impl.prof
+[ 61% 535/866] glob android.test.base.prof
+[ 61% 536/866] glob android.test.mock.impl.prof
+[ 62% 537/866] glob android.test.mock.prof
+[ 62% 538/866] glob android.test.runner.impl.prof
+[ 62% 539/866] glob android.test.runner.prof
+[ 62% 540/866] glob androidx.window.sidecar.prof
+[ 62% 541/866] glob apache-xml.prof
+[ 62% 542/866] glob apex_aidl_interface-java.prof
+[ 62% 543/866] glob appwidget.prof
+[ 62% 544/866] glob binderStabilityTestIface-java.prof
+[ 62% 545/866] glob binderthreadstateutilstest-V1.0-java-shallow.prof
+[ 63% 546/866] glob binderthreadstateutilstest-V1.0-java.prof
+[ 63% 547/866] glob binderthreadstateutilstest.aidl-java.prof
+[ 63% 548/866] glob bitmapcache-sample.prof
+[ 63% 549/866] glob bmgr.prof
+[ 63% 550/866] glob bouncycastle.prof
+[ 63% 551/866] glob bttraffic.prof
+[ 63% 552/866] glob bu.prof
+[ 63% 553/866] glob caliper-api-target.prof
+[ 63% 554/866] glob capture_state_listener-aidl-java.prof
+[ 64% 555/866] glob car-frameworks-service.prof
+[ 64% 556/866] glob carwatchdog_aidl_interface-V2-java.prof
+[ 64% 557/866] glob carwatchdog_aidl_interface-java.prof
+[ 64% 558/866] glob com.android.future.usb.accessory.impl.prof
+[ 64% 559/866] glob com.android.future.usb.accessory.prof
+[ 64% 560/866] glob carwatchdog_aidl_interface-unstable-java.prof
+[ 64% 561/866] glob com.android.hotwordenrollment.common.util.prof
+[ 64% 562/866] glob com.android.location.provider.impl.prof
+[ 65% 563/866] glob com.android.location.provider.prof
+[ 65% 564/866] glob com.android.media.remotedisplay.impl.prof
+[ 65% 565/866] glob com.android.media.remotedisplay.prof
+[ 65% 566/866] glob com.android.mediadrm.signer.impl.prof
+[ 65% 567/866] glob com.android.mediadrm.signer.prof
+[ 65% 568/866] glob com.android.nfc_extras.impl.prof
+[ 65% 569/866] glob com.android.nfc_extras.prof
+[ 65% 570/866] glob com.android.phone.common.prof
+[ 65% 571/866] glob com.android.test.libs.product.prof
+[ 66% 572/866] glob com.android.test.libs.system_ext.prof
+[ 66% 573/866] glob com.dsi.ant-V1.0-java-shallow.prof
+[ 66% 574/866] glob com.dsi.ant-V1.0-java.prof
+[ 66% 575/866] glob com.google.hardware.pixel.display-V1-java.prof
+[ 66% 576/866] glob com.google.hardware.pixel.display-java.prof
+[ 66% 577/866] glob com.google.hardware.pixel.display-unstable-java.prof
+[ 66% 578/866] glob com.nxp.nfc.nq.prof
+[ 66% 579/866] glob com.qti.dpmframework.prof
+[ 66% 580/866] glob com.qualcomm.qti.bluetooth_audio-V1.0-java-shallow.prof
+[ 67% 581/866] glob com.qualcomm.qti.bluetooth_audio-V1.0-java.prof
+[ 67% 582/866] glob com.qualcomm.qti.imscmservice-V2.0-java.prof
+[ 67% 583/866] glob com.qualcomm.qti.imscmservice-V2.1-java.prof
+[ 67% 584/866] glob com.qualcomm.qti.imscmservice-V2.2-java.prof
+[ 67% 585/866] glob conscrypt.prof
+[ 67% 586/866] glob content.prof
+[ 67% 587/866] glob core-icu4j.prof
+[ 67% 588/866] glob core-libart.prof
+[ 68% 589/866] glob core-oj.prof
+[ 68% 590/866] glob dnsresolver_aidl_interface-V1-java.prof
+[ 68% 591/866] glob dnsresolver_aidl_interface-V2-java.prof
+[ 68% 592/866] glob dnsresolver_aidl_interface-V3-java.prof
+[ 68% 593/866] glob dnsresolver_aidl_interface-V4-java.prof
+[ 68% 594/866] glob dnsresolver_aidl_interface-V5-java.prof
+[ 68% 595/866] glob dnsresolver_aidl_interface-V6-java.prof
+[ 68% 596/866] glob dnsresolver_aidl_interface-java.prof
+[ 68% 597/866] glob dpm.prof
+[ 69% 598/866] glob dnsresolver_aidl_interface-unstable-java.prof
+[ 69% 599/866] glob dpmapi.prof
+[ 69% 600/866] glob ethernet-service.prof
+[ 69% 601/866] glob ext.prof
+[ 69% 602/866] glob framework-media-tv-trm-sources.prof
+[ 69% 603/866] glob framework-atb-backward-compatibility.prof
+[ 69% 604/866] glob framework-mediaprovider.prof
+[ 69% 605/866] glob framework-minus-apex.prof
+[ 69% 606/866] glob framework-permission.impl.prof
+[ 70% 607/866] glob framework-mediaprovider.impl.prof
+[ 70% 608/866] glob framework-permission.prof
+[ 70% 609/866] glob framework-sdkextensions.impl.prof
+[ 70% 610/866] glob framework-sdkextensions.prof
+[ 70% 611/866] glob framework-statsd.impl.prof
+[ 70% 612/866] glob framework-statsd.prof
+[ 70% 613/866] glob framework-tethering.impl.prof
+[ 70% 614/866] glob framework-tethering.prof
+[ 71% 615/866] glob framework-wifi.impl.prof
+[ 71% 616/866] glob framework-wifi.prof
+[ 71% 617/866] glob frameworks-base-core-benchmarks.prof
+[ 71% 618/866] glob gsi_aidl_interface-java.prof
+[ 71% 619/866] glob hardware.google.light-V1.0-java-shallow.prof
+[ 71% 620/866] glob hardware.google.light-V1.0-java.prof
+[ 71% 621/866] glob hardware.google.light-V1.1-java-shallow.prof
+[ 71% 622/866] glob hardware.google.light-V1.1-java.prof
+[ 71% 623/866] glob hidl2aidl_test_gen-java.prof
+[ 72% 624/866] glob hid.prof
+[ 72% 625/866] glob hidl_test_product-V2.0-java-shallow.prof
+[ 72% 626/866] glob hidl_test_product-V2.0-java.prof
+[ 72% 627/866] glob hidl_test_system_ext-V1.0-java-shallow.prof
+[ 72% 628/866] glob hidl_test_system_ext-V1.0-java.prof
+[ 72% 629/866] glob hidl.tests.vendor-V1.0-java-shallow.prof
+[ 72% 630/866] glob hidl.tests.vendor-V1.0-java.prof
+[ 72% 631/866] glob hidl.tests.vendor-V1.1-java-shallow.prof
+[ 72% 632/866] glob hidl.tests.vendor-V1.1-java.prof
+[ 73% 633/866] glob hidl.tests.vendor.android-V1.0-java-shallow.prof
+[ 73% 634/866] glob hidl.tests.vendor.android-V1.0-java.prof
+[ 73% 635/866] glob ims-common.prof
+[ 73% 636/866] glob ims-ext-common.prof
+[ 73% 637/866] glob incident-helper-cmd.prof
+[ 73% 638/866] glob input.prof
+[ 73% 639/866] glob ipmemorystore-aidl-interfaces-V1-java.prof
+[ 73% 640/866] glob ipmemorystore-aidl-interfaces-V2-java.prof
+[ 74% 641/866] glob ipmemorystore-aidl-interfaces-V3-java.prof
+[ 74% 642/866] glob ipmemorystore-aidl-interfaces-V4-java.prof
+[ 74% 643/866] glob ipmemorystore-aidl-interfaces-V5-java.prof
+[ 74% 644/866] glob ipmemorystore-aidl-interfaces-V6-java.prof
+[ 74% 645/866] glob ipmemorystore-aidl-interfaces-V7-java.prof
+[ 74% 646/866] glob ipmemorystore-aidl-interfaces-java.prof
+[ 74% 647/866] glob ipmemorystore-aidl-interfaces-unstable-java.prof
+[ 74% 648/866] glob jacocoagent.prof
+[ 74% 649/866] glob javax.obex.impl.prof
+[ 75% 650/866] glob javax.obex.prof
+[ 75% 651/866] glob lazy_test_service_aidl-java.prof
+[ 75% 652/866] glob libChipsSample.prof
+[ 75% 653/866] glob libbinder_ndk_test_interface-V1-java.prof
+[ 75% 654/866] glob libbinder_ndk_test_interface-V2-java.prof
+[ 75% 655/866] glob libbinder_ndk_test_interface-java.prof
+[ 75% 656/866] glob libbinder_ndk_test_interface-unstable-java.prof
+[ 75% 657/866] glob libdataloader_aidl-java.prof
+[ 75% 658/866] glob libincremental_aidl-java.prof
+[ 76% 659/866] glob libincremental_manager_aidl-java.prof
+[ 76% 660/866] glob liblpdump_interface-java.prof
+[ 76% 661/866] glob locksettings.prof
+[ 76% 662/866] glob mediatranscoding_aidl_interface-java.prof
+[ 76% 663/866] glob motorola.hardware.health-V1.0-java-shallow.prof
+[ 76% 664/866] glob motorola.hardware.health-V1.0-java.prof
+[ 76% 665/866] glob netd_aidl_interface-V1-java.prof
+[ 76% 666/866] glob netd_aidl_interface-V2-java.prof
+[ 77% 667/866] glob netd_aidl_interface-V3-java.prof
+[ 77% 668/866] glob netd_aidl_interface-V4-java.prof
+[ 77% 669/866] glob netd_aidl_interface-V5-java.prof
+[ 77% 670/866] glob netd_aidl_interface-java.prof
+[ 77% 671/866] glob netd_aidl_interface-unstable-java.prof
+[ 77% 672/866] glob netd_event_listener_interface-V1-java.prof
+[ 77% 673/866] glob netd_event_listener_interface-java.prof
+[ 77% 674/866] glob netd_event_listener_interface-unstable-java.prof
+[ 77% 675/866] glob networkStatsFactory-benchmarks.prof
+[ 78% 676/866] glob networkstack-aidl-interfaces-V1-java.prof
+[ 78% 677/866] glob networkstack-aidl-interfaces-V2-java.prof
+[ 78% 678/866] glob networkstack-aidl-interfaces-V3-java.prof
+[ 78% 679/866] glob networkstack-aidl-interfaces-V4-java.prof
+[ 78% 680/866] glob networkstack-aidl-interfaces-V5-java.prof
+[ 78% 681/866] glob networkstack-aidl-interfaces-V6-java.prof
+[ 78% 682/866] glob networkstack-aidl-interfaces-V7-java.prof
+[ 78% 683/866] glob networkstack-aidl-interfaces-java.prof
+[ 78% 684/866] glob networkstack-aidl-interfaces-unstable-java.prof
+[ 79% 685/866] glob oemnetd_aidl_interface-java.prof
+[ 79% 686/866] glob okhttp.prof
+[ 79% 687/866] glob org.lineageos.platform.prof
+[ 79% 688/866] glob overlayable_policy_aidl-java.prof
+[ 79% 689/866] glob pixel-power-ext-V1-java.prof
+[ 79% 690/866] glob pixel-power-ext-java.prof
+[ 79% 691/866] glob pixelpowerstats_provider_aidl_interface-java.prof
+[ 79% 692/866] glob pixel-power-ext-unstable-java.prof
+[ 80% 693/866] glob qcom.fmradio.prof
+[ 80% 694/866] glob qcrilhook.prof
+[ 80% 695/866] glob qti-telephony-hidl-wrapper.prof
+[ 80% 696/866] glob qti-telephony-utils.prof
+[ 80% 697/866] glob qtiImsInCallUi.prof
+[ 80% 698/866] glob requestsync.prof
+[ 80% 699/866] glob resourcemanager_aidl_interface-java.prof
+[ 80% 700/866] glob sampletunertvinput.prof
+[ 80% 701/866] glob sdkextensions_e2e_test_app.prof
+[ 81% 702/866] glob service-blobstore.prof
+[ 81% 703/866] glob service-jobscheduler.prof
+[ 81% 704/866] glob service-permission.impl.prof
+[ 81% 705/866] glob service-permission.prof
+[ 81% 706/866] glob sm.prof
+[ 81% 707/866] glob startop_test_app.prof
+[ 81% 708/866] glob suspend_control_aidl_interface-java.prof
+[ 81% 709/866] glob svc.prof
+[ 81% 710/866] glob svcmonitor.prof
+[ 82% 711/866] glob telecom.prof
+[ 82% 712/866] glob telephony-common.prof
+[ 82% 713/866] glob telephony-ext.prof
+[ 82% 714/866] glob test-piece-1-V1-java.prof
+[ 82% 715/866] glob test-piece-1-V2-java.prof
+[ 82% 716/866] glob test-piece-1-V3-java.prof
+[ 82% 717/866] glob test-piece-1-java.prof
+[ 82% 718/866] glob test-piece-1-unstable-java.prof
+[ 83% 719/866] glob test-piece-2-V1-java.prof
+[ 83% 720/866] glob test-piece-2-java.prof
+[ 83% 721/866] glob test-piece-2-unstable-java.prof
+[ 83% 722/866] glob test-piece-3-V1-java.prof
+[ 83% 723/866] glob test-piece-3-java.prof
+[ 83% 724/866] glob test-piece-3-unstable-java.prof
+[ 83% 725/866] glob test-piece-4-V1-java.prof
+[ 83% 726/866] glob test-piece-4-java.prof
+[ 83% 727/866] glob test-piece-4-unstable-java.prof
+[ 84% 728/866] glob test-root-package-V1-java.prof
+[ 84% 729/866] glob test-root-package-V2-java.prof
+[ 84% 730/866] glob test-root-package-java.prof
+[ 84% 731/866] glob test-root-package-unstable-java.prof
+[ 84% 732/866] glob test-variants-java.prof
+[ 84% 733/866] glob test_framework-sdkextensions.prof
+[ 84% 734/866] glob uiautomator.prof
+[ 84% 735/866] glob updatable-media.prof
+[ 84% 736/866] glob vendor.display.config-V1.0-java-shallow.prof
+[ 85% 737/866] glob vendor.display.config-V1.0-java.prof
+[ 85% 738/866] glob vendor.display.config-V1.1-java-shallow.prof
+[ 85% 739/866] glob vendor.display.config-V1.1-java.prof
+[ 85% 740/866] glob vendor.display.config-V1.10-java-shallow.prof
+[ 85% 741/866] glob vendor.display.config-V1.10-java.prof
+[ 85% 742/866] glob vendor.display.config-V1.11-java-shallow.prof
+[ 85% 743/866] glob vendor.display.config-V1.11-java.prof
+[ 85% 744/866] glob vendor.display.config-V1.12-java-shallow.prof
+[ 86% 745/866] glob vendor.display.config-V1.12-java.prof
+[ 86% 746/866] glob vendor.display.config-V1.13-java-shallow.prof
+[ 86% 747/866] glob vendor.display.config-V1.13-java.prof
+[ 86% 748/866] glob vendor.display.config-V1.14-java-shallow.prof
+[ 86% 749/866] glob vendor.display.config-V1.14-java.prof
+[ 86% 750/866] glob vendor.display.config-V1.15-java-shallow.prof
+[ 86% 751/866] glob vendor.display.config-V1.15-java.prof
+[ 86% 752/866] glob vendor.display.config-V1.16-java-shallow.prof
+[ 86% 753/866] glob vendor.display.config-V1.16-java.prof
+[ 87% 754/866] glob vendor.display.config-V1.2-java-shallow.prof
+[ 87% 755/866] glob vendor.display.config-V1.2-java.prof
+[ 87% 756/866] glob vendor.display.config-V1.3-java-shallow.prof
+[ 87% 757/866] glob vendor.display.config-V1.3-java.prof
+[ 87% 758/866] glob vendor.display.config-V1.4-java-shallow.prof
+[ 87% 759/866] glob vendor.display.config-V1.4-java.prof
+[ 87% 760/866] glob vendor.display.config-V1.5-java-shallow.prof
+[ 87% 761/866] glob vendor.display.config-V1.5-java.prof
+[ 87% 762/866] glob vendor.display.config-V1.6-java-shallow.prof
+[ 88% 763/866] glob vendor.display.config-V1.6-java.prof
+[ 88% 764/866] glob vendor.display.config-V1.7-java-shallow.prof
+[ 88% 765/866] glob vendor.display.config-V1.7-java.prof
+[ 88% 766/866] glob vendor.display.config-V1.8-java-shallow.prof
+[ 88% 767/866] glob vendor.display.config-V1.8-java.prof
+[ 88% 768/866] glob vendor.display.config-V1.9-java-shallow.prof
+[ 88% 769/866] glob vendor.display.config-V1.9-java.prof
+[ 88% 770/866] glob vendor.display.config-V2.0-java-shallow.prof
+[ 89% 771/866] glob vendor.display.config-V2.0-java.prof
+[ 89% 772/866] glob vendor.lineage.biometrics.fingerprint.inscreen-V1.0-java-shallow.prof
+[ 89% 773/866] glob vendor.lineage.biometrics.fingerprint.inscreen-V1.0-java.prof
+[ 89% 774/866] glob vendor.lineage.camera.motor-V1.0-java-shallow.prof
+[ 89% 775/866] glob vendor.lineage.camera.motor-V1.0-java.prof
+[ 89% 776/866] glob vendor.lineage.fastcharge-V1.0-java-shallow.prof
+[ 89% 777/866] glob vendor.lineage.fastcharge-V1.0-java.prof
+[ 89% 778/866] glob vendor.lineage.livedisplay-V2.0-java-shallow.prof
+[ 89% 779/866] glob vendor.lineage.livedisplay-V2.0-java.prof
+[ 90% 780/866] glob vendor.lineage.livedisplay-V2.1-java-shallow.prof
+[ 90% 781/866] glob vendor.lineage.livedisplay-V2.1-java.prof
+[ 90% 782/866] glob vendor.lineage.power-V1-java.prof
+[ 90% 783/866] glob vendor.lineage.power-V1.0-java-shallow.prof
+[ 90% 784/866] glob vendor.lineage.power-V1.0-java.prof
+[ 90% 785/866] glob vendor.lineage.power-java.prof
+[ 90% 786/866] glob vendor.lineage.power-unstable-java.prof
+[ 90% 787/866] glob vendor.lineage.powershare-V1.0-java-shallow.prof
+[ 90% 788/866] glob vendor.lineage.powershare-V1.0-java.prof
+[ 91% 789/866] glob vendor.lineage.touch-V1.0-java-shallow.prof
+[ 91% 790/866] glob vendor.lineage.touch-V1.0-java.prof
+[ 91% 791/866] glob vendor.lineage.trust-V1.0-java-shallow.prof
+[ 91% 792/866] glob vendor.lineage.trust-V1.0-java.prof
+[ 91% 793/866] glob vendor.nxp.hardware.nfc-V1.0-java-shallow.prof
+[ 91% 794/866] glob vendor.nxp.hardware.nfc-V1.0-java.prof
+[ 91% 795/866] glob vendor.nxp.hardware.nfc-V1.1-java-shallow.prof
+[ 91% 796/866] glob vendor.nxp.hardware.nfc-V1.1-java.prof
+[ 92% 797/866] glob vendor.nxp.hardware.nfc-V2.0-java-shallow.prof
+[ 92% 798/866] glob vendor.nxp.hardware.nfc-V2.0-java.prof
+[ 92% 799/866] glob vendor.nxp.nxpese-V1.0-java-shallow.prof
+[ 92% 800/866] glob vendor.nxp.nxpese-V1.0-java.prof
+[ 92% 801/866] glob vendor.nxp.nxpnfc-V1.0-java.prof
+[ 92% 802/866] glob vendor.nxp.nxpnfc-V1.0-java-shallow.prof
+[ 92% 803/866] glob vendor.nxp.nxpnfclegacy-V1.0-java-shallow.prof
+[ 92% 804/866] glob vendor.nxp.nxpnfclegacy-V1.0-java.prof
+[ 92% 805/866] glob vendor.qti.hardware.bluetooth_dun-V1.0-java-shallow.prof
+[ 93% 806/866] glob vendor.qti.hardware.bluetooth_dun-V1.0-java.prof
+[ 93% 807/866] glob vendor.qti.hardware.btconfigstore-V1.0-java-shallow.prof
+[ 93% 808/866] glob vendor.qti.hardware.btconfigstore-V1.0-java.prof
+[ 93% 809/866] glob vendor.qti.hardware.btconfigstore-V2.0-java-shallow.prof
+[ 93% 810/866] glob vendor.qti.hardware.btconfigstore-V2.0-java.prof
+[ 93% 811/866] glob vendor.qti.hardware.camera.device-V1.0-java-shallow.prof
+[ 93% 812/866] glob vendor.qti.hardware.camera.device-V1.0-java.prof
+[ 93% 813/866] glob vendor.qti.hardware.camera.postproc-V1.0-java-shallow.prof
+[ 93% 814/866] glob vendor.qti.hardware.camera.postproc-V1.0-java.prof
+[ 94% 815/866] glob vendor.qti.hardware.capabilityconfigstore-V1.0-java-shallow.prof
+[ 94% 816/866] glob vendor.qti.hardware.capabilityconfigstore-V1.0-java.prof
+[ 94% 817/866] glob vendor.qti.hardware.cryptfshw-V1.0-java-shallow.prof
+[ 94% 818/866] glob vendor.qti.hardware.cryptfshw-V1.0-java.prof
+[ 94% 819/866] glob vendor.qti.hardware.debugutils-V1.0-java-shallow.prof
+[ 94% 820/866] glob vendor.qti.hardware.debugutils-V1.0-java.prof
+[ 94% 821/866] glob vendor.qti.hardware.display.demura-V1.0-java-shallow.prof
+[ 94% 822/866] glob vendor.qti.hardware.display.demura-V1.0-java.prof
+[ 95% 823/866] glob vendor.qti.hardware.display.demura-V2.0-java.prof
+[ 95% 824/866] glob vendor.qti.hardware.fstman-V1.0-java-shallow.prof
+[ 95% 825/866] glob vendor.qti.hardware.display.demura-V2.0-java-shallow.prof
+[ 95% 826/866] glob vendor.qti.hardware.fstman-V1.0-java.prof
+[ 95% 827/866] glob vendor.qti.hardware.perf-V1.0-java-shallow.prof
+[ 95% 828/866] glob vendor.qti.hardware.perf-V1.0-java.prof
+[ 95% 829/866] glob vendor.qti.hardware.perf-V2.0-java-shallow.prof
+[ 95% 830/866] glob vendor.qti.hardware.perf-V2.0-java.prof
+[ 95% 831/866] glob vendor.qti.hardware.perf-V2.1-java-shallow.prof
+[ 96% 832/866] glob vendor.qti.hardware.perf-V2.1-java.prof
+[ 96% 833/866] glob vendor.qti.hardware.perf-V2.2-java-shallow.prof
+[ 96% 834/866] glob vendor.qti.hardware.perf-V2.2-java.prof
+[ 96% 835/866] glob vendor.qti.hardware.servicetracker-V1.0-java.prof
+[ 96% 836/866] glob vendor.qti.hardware.servicetracker-V1.0-java-shallow.prof
+[ 96% 837/866] glob vendor.qti.hardware.servicetracker-V1.1-java-shallow.prof
+[ 96% 838/866] glob vendor.qti.hardware.servicetracker-V1.1-java.prof
+[ 96% 839/866] glob vendor.qti.hardware.servicetracker-V1.2-java-shallow.prof
+[ 96% 840/866] glob vendor.qti.hardware.servicetracker-V1.2-java.prof
+[ 97% 841/866] glob vendor.qti.hardware.systemhelper-V1.0-java-shallow.prof
+[ 97% 842/866] glob vendor.qti.hardware.systemhelper-V1.0-java.prof
+[ 97% 843/866] glob vendor.qti.hardware.wifi-V1.0-java-shallow.prof
+[ 97% 844/866] glob vendor.qti.hardware.wifi-V1.0-java.prof
+[ 97% 845/866] glob vendor.qti.hardware.wifi.hostapd-V1.0-java-shallow.prof
+[ 97% 846/866] glob vendor.qti.hardware.wifi.hostapd-V1.0-java.prof
+[ 97% 847/866] glob vendor.qti.hardware.wifi.hostapd-V1.1-java-shallow.prof
+[ 97% 848/866] glob vendor.qti.hardware.wifi.hostapd-V1.1-java.prof
+[ 98% 849/866] glob vendor.qti.hardware.wifi.hostapd-V1.2-java-shallow.prof
+[ 98% 850/866] glob vendor.qti.hardware.wifi.hostapd-V1.2-java.prof
+[ 98% 851/866] glob vendor.qti.hardware.wifi.hostapd-V1.3-java-shallow.prof
+[ 98% 852/866] glob vendor.qti.hardware.wifi.hostapd-V1.3-java.prof
+[ 98% 853/866] glob vendor.qti.hardware.wifi.supplicant-V1.0-java-shallow.prof
+[ 98% 854/866] glob vendor.qti.hardware.wifi.supplicant-V1.0-java.prof
+[ 98% 855/866] glob vendor.qti.hardware.wifi.supplicant-V2.0-java-shallow.prof
+[ 98% 856/866] glob vendor.qti.hardware.wifi.supplicant-V2.0-java.prof
+[ 98% 857/866] glob vendor.qti.hardware.wifi.supplicant-V2.1-java.prof
+[ 99% 858/866] glob vendor.qti.hardware.wifi.supplicant-V2.1-java-shallow.prof
+[ 99% 859/866] glob vendor.qti.hardware.wifi.supplicant-V2.2-java-shallow.prof
+[ 99% 860/866] glob vendor.qti.hardware.wifi.supplicant-V2.2-java.prof
+[ 99% 861/866] glob vendor.qti.hardware.wifi.supplicant-V2.3-java-shallow.prof
+[ 99% 862/866] glob vendor.qti.hardware.wifi.supplicant-V2.3-java.prof
+[ 99% 863/866] glob vmtests-mains.prof
+[ 99% 864/866] glob voip-common.prof
+[ 99% 865/866] glob vr.prof
+No need to regenerate ninja file
+No need to regenerate ninja file
+No need to regenerate ninja file
+Starting ninja...
+[ 97% 866/884] build out/target/product/miatoll/obj/KERNEL_OBJ/.additional_config
+[ 98% 867/884] build out/target/product/miatoll/gen/ETC/vendor_compatibility_matrix.xml_intermediates/compatibility_matrix.xml
+[ 98% 868/884] target Prebuilt: vendor_compatibility_matrix.xml (out/target/product/miatoll/obj/ETC/vendor_compatibility_matrix.xml_intermediates/compatibility_matrix.xml)
+[ 98% 869/884] Install: out/target/product/miatoll/vendor/etc/vintf/compatibility_matrix.xml
+[ 98% 870/884] build out/target/product/miatoll/obj/NOTICE_VENDOR.xml
+[ 98% 871/884] build out/target/product/miatoll/obj/NOTICE_VENDOR.xml.gz
+[ 98% 872/884] build out/target/product/miatoll/vendor/etc/NOTICE.xml.gz
+[ 98% 873/884] Installed file list: out/target/product/miatoll/installed-files-vendor.txt
+[ 98% 874/884] Building Kernel Config
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --savedefconfig=defconfig Kconfig
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 98% 875/884] Building Kernel Image (Image)
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     scripts/mod/devicetable-offsets.h
+  Using /home/ubuntu/lemonage/kernel/xiaomi/sm6250 as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GZIP    kernel/config_data.gz
+  CHK     kernel/kheaders_data.tar.xz
+  GEN     kernel/kheaders_data.tar.xz
+  CHK     kernel/config_data.h
+  CC      kernel/kheaders.o
+  AR      kernel/built-in.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  AR      built-in.o
+  LTO     vmlinux.o
+  MODPOST vmlinux.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+Building DTBs
+make: Entering directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+make[1]: Entering directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     scripts/mod/devicetable-offsets.h
+  Using /home/ubuntu/lemonage/kernel/xiaomi/sm6250 as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/ubuntu/lemonage/kernel/xiaomi/sm6250/scripts/checksyscalls.sh
+  DTC     arch/arm64/boot/dts/qcom/cust-atoll-ab.dtb
+  DTC     arch/arm64/boot/dts/qcom/curtana-atoll-ab-idp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/excalibur-atoll-ab-idp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/gram-atoll-ab-idp-overlay.dtbo
+  DTC     arch/arm64/boot/dts/qcom/joyeuse-atoll-ab-idp-overlay.dtbo
+make[1]: Leaving directory '/home/ubuntu/lemonage/out/target/product/miatoll/obj/KERNEL_OBJ'
+make: Leaving directory '/home/ubuntu/lemonage/kernel/xiaomi/sm6250'
+[ 99% 876/884] Prebuilt:  (out/target/product/miatoll/kernel)
+[ 99% 877/884] build out/target/product/miatoll/obj/PACKAGING/check_vintf_all_intermediates/kernel_configs.txt
+[ 99% 878/884] Target boot image: out/target/product/miatoll/boot.img
+[ 99% 879/884] build out/target/product/miatoll/recovery.img
+[ 99% 880/884] Target vendor fs image: out/target/product/miatoll/vendor.img
+[ 99% 881/884] Target vbmeta image: out/target/product/miatoll/vbmeta.img
+[ 99% 882/884] Package target files: out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu.zip
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read SYSTEM/etc/build.prop
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read SYSTEM_EXT/etc/build.prop
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2025-01-26 15:55:36 - common.py - WARNING : Failed to read ODM/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read SYSTEM/etc/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read SYSTEM_EXT/etc/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2025-01-26 15:55:41 - common.py - WARNING : Failed to read ODM/build.prop
+2025-01-26 15:55:41 - add_img_to_target_files.py - INFO    : 
+
+++++ boot  ++++
+
+
+2025-01-26 15:55:41 - common.py - INFO    : building image from target_files BOOT...
+2025-01-26 15:55:41 - common.py - INFO    :   Running: "mkbootfs -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/boot_filesystem_config.txt /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/BOOT/RAMDISK"
+2025-01-26 15:55:41 - common.py - INFO    :   Running: "minigzip"
+2025-01-26 15:55:41 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/BOOT/kernel --dtb /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/BOOT/dtb --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.memcg=1 androidboot.usbcontroller=a600000.dwc3 cgroup.memory=nokmem,nosocket console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa88000 loop.max_part=7 lpm_levels.sleep_disabled=1 msm_rtb.enabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 video=vfb:640x400,bpp=32,memsize=3072000 buildvariant=userdebug --base 0x00000000 --pagesize 4096 --header_version 2 --os_version 11 --os_patch_level 2024-02-05 --ramdisk /home/ubuntu/lemonage/out/soong/.temp/tmpjOtRJA --output /home/ubuntu/lemonage/out/soong/.temp/tmpbnbqiA"
+2025-01-26 15:55:42 - common.py - INFO    : 
+2025-01-26 15:55:42 - common.py - INFO    :   Running: "avbtool add_hash_footer --image /home/ubuntu/lemonage/out/soong/.temp/tmpbnbqiA --partition_size 134217728 --partition_name boot --prop com.android.build.boot.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.boot.os_version:11"
+2025-01-26 15:55:42 - common.py - INFO    : 
+2025-01-26 15:55:43 - add_img_to_target_files.py - INFO    : 
+
+++++ recovery  ++++
+
+
+2025-01-26 15:55:43 - common.py - INFO    : building image from target_files RECOVERY...
+2025-01-26 15:55:43 - common.py - INFO    :   Running: "mkbootfs -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/recovery_filesystem_config.txt /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/RAMDISK"
+2025-01-26 15:55:43 - common.py - INFO    :   Running: "minigzip"
+2025-01-26 15:55:44 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/kernel --dtb /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/dtb --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.memcg=1 androidboot.usbcontroller=a600000.dwc3 cgroup.memory=nokmem,nosocket console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa88000 loop.max_part=7 lpm_levels.sleep_disabled=1 msm_rtb.enabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 video=vfb:640x400,bpp=32,memsize=3072000 buildvariant=userdebug --base 0x00000000 --pagesize 4096 --header_version 2 --os_version 11 --os_patch_level 2024-02-05 --ramdisk /home/ubuntu/lemonage/out/soong/.temp/tmpkjxVGP --output /home/ubuntu/lemonage/out/soong/.temp/tmpf1u1X1 --recovery_dtbo /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/recovery_dtbo"
+2025-01-26 15:55:44 - common.py - INFO    : 
+2025-01-26 15:55:44 - common.py - INFO    :   Running: "avbtool add_hash_footer --image /home/ubuntu/lemonage/out/soong/.temp/tmpf1u1X1 --partition_size 134217728 --partition_name recovery --key external/avb/test/data/testkey_rsa2048.pem --algorithm SHA256_RSA2048 --prop com.android.build.recovery.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --rollback_index 1707091200"
+2025-01-26 15:55:45 - common.py - INFO    : 
+2025-01-26 15:55:45 - add_img_to_target_files.py - INFO    : 
+
+++++ recovery (two-step image)  ++++
+
+
+2025-01-26 15:55:45 - common.py - INFO    : building image from target_files RECOVERY...
+2025-01-26 15:55:45 - common.py - INFO    :   Running: "mkbootfs -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/recovery_filesystem_config.txt /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/RAMDISK"
+2025-01-26 15:55:46 - common.py - INFO    :   Running: "minigzip"
+2025-01-26 15:55:47 - common.py - INFO    :   Running: "out/host/linux-x86/bin/mkbootimg --kernel /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/kernel --dtb /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/dtb --cmdline androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.memcg=1 androidboot.usbcontroller=a600000.dwc3 cgroup.memory=nokmem,nosocket console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa88000 loop.max_part=7 lpm_levels.sleep_disabled=1 msm_rtb.enabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 video=vfb:640x400,bpp=32,memsize=3072000 buildvariant=userdebug --base 0x00000000 --pagesize 4096 --header_version 2 --os_version 11 --os_patch_level 2024-02-05 --ramdisk /home/ubuntu/lemonage/out/soong/.temp/tmpGXGk5X --output /home/ubuntu/lemonage/out/soong/.temp/tmpoDThtK --recovery_dtbo /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/RECOVERY/recovery_dtbo"
+2025-01-26 15:55:47 - common.py - INFO    : 
+2025-01-26 15:55:47 - common.py - INFO    :   Running: "avbtool add_hash_footer --image /home/ubuntu/lemonage/out/soong/.temp/tmpoDThtK --partition_size 134217728 --partition_name recovery --key external/avb/test/data/testkey_rsa2048.pem --algorithm SHA256_RSA2048 --prop com.android.build.recovery.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --rollback_index 1707091200"
+2025-01-26 15:55:48 - common.py - INFO    : 
+2025-01-26 15:55:48 - add_img_to_target_files.py - INFO    : 
+
+++++ system  ++++
+
+
+2025-01-26 15:55:48 - add_img_to_target_files.py - INFO    : creating system.img...
+2025-01-26 15:55:49 - build_image.py - INFO    : The tree size of /home/ubuntu/lemonage/out/soong/.temp/tmpPMexB_ is 943 MB.
+2025-01-26 15:55:49 - build_image.py - INFO    : First Pass based on estimates of 2743 MB and -1 inodes.
+2025-01-26 15:55:49 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/soong/.temp/tmpPMexB_ /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img ext4 / 2876903424 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/soong/.temp/merged_fs_configeOqppr.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.map -L / -M 0 -U b620ad02-98f7-5e65-a870-9941140ffeef -S 6956c105-c30b-56d0-bfc4-3a7eae6a337d --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:56:06 - common.py - INFO    : 15:55:49 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpaxLwAo'}
+15:55:49 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -I 256 -M / -m 0 -U b620ad02-98f7-5e65-a870-9941140ffeef -E android_sparse,hash_seed=6956c105-c30b-56d0-bfc4-3a7eae6a337d -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img 702369
+15:55:50 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:55:50 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/soong/.temp/merged_fs_configeOqppr.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/soong/.temp/tmpPMexB_ -a / /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 702369 4k blocks and 175648 inodes
+Filesystem UUID: b620ad02-98f7-5e65-a870-9941140ffeef
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912
+
+Allocating group tables:  0/22     done                            
+Writing inode tables:  0/22     done                            
+Writing superblocks and filesystem accounting information:  0/22     done
+
+
+loaded 2981 fs_config entries
+Created filesystem with 2990/175648 inodes and 252751/702369 blocks
+2025-01-26 15:56:06 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system.img"
+2025-01-26 15:56:07 - common.py - INFO    : 
+2025-01-26 15:56:07 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system.img"
+2025-01-26 15:56:18 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+/: 2990/175648 files (0.4% non-contiguous), 252751/702369 blocks
+2025-01-26 15:56:18 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system.img"
+2025-01-26 15:56:18 - common.py - INFO    : 
+2025-01-26 15:56:31 - build_image.py - INFO    : Not worth reducing image 1841635328 <= 1887436800.
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2876903424 --calc_max_image_size --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2923110400 --calc_max_image_size --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2923114496 --calc_max_image_size --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2923110400 --calc_max_image_size --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:56:31 - verity_utils.py - INFO    : CalculateMinPartitionSize(2876903424): partition_size 2923110400.
+2025-01-26 15:56:31 - build_image.py - INFO    : Allocating 2787 MB for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img.
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2923110400 --calc_max_image_size --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:56:31 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/soong/.temp/tmpPMexB_ /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img ext4 / 2876903424 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/soong/.temp/merged_fs_configeOqppr.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.map -L / -M 0 -U b620ad02-98f7-5e65-a870-9941140ffeef -S 6956c105-c30b-56d0-bfc4-3a7eae6a337d --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:56:46 - common.py - INFO    : 15:56:32 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmp20PNEe'}
+15:56:32 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -I 256 -M / -m 0 -U b620ad02-98f7-5e65-a870-9941140ffeef -E android_sparse,hash_seed=6956c105-c30b-56d0-bfc4-3a7eae6a337d -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img 702369
+15:56:32 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:56:32 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/soong/.temp/merged_fs_configeOqppr.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/soong/.temp/tmpPMexB_ -a / /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 702369 4k blocks and 175648 inodes
+Filesystem UUID: b620ad02-98f7-5e65-a870-9941140ffeef
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912
+
+Allocating group tables:  0/22     done                            
+Writing inode tables:  0/22     done                            
+Writing superblocks and filesystem accounting information:  0/22     done
+
+
+loaded 2981 fs_config entries
+Created filesystem with 2990/175648 inodes and 252751/702369 blocks
+2025-01-26 15:56:46 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system.img"
+2025-01-26 15:56:46 - common.py - INFO    : 
+2025-01-26 15:56:46 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system.img"
+2025-01-26 15:56:53 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+/: 2990/175648 files (0.4% non-contiguous), 252751/702369 blocks
+2025-01-26 15:56:53 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2923110400 --partition_name system --image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img --salt 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77 --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05"
+2025-01-26 15:57:15 - add_img_to_target_files.py - INFO    : 
+
+++++ vendor  ++++
+
+
+2025-01-26 15:57:15 - add_img_to_target_files.py - INFO    : creating vendor.img...
+2025-01-26 15:57:15 - build_image.py - INFO    : The tree size of /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR is 1007 MB.
+2025-01-26 15:57:15 - build_image.py - INFO    : First Pass based on estimates of 1107 MB and 2050 inodes.
+2025-01-26 15:57:15 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img ext4 vendor 1161232384 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/vendor_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.map -L vendor -i 2050 -M 0 -U db7aa080-c08d-5329-96b3-be738941a07a -S 450a05ea-946c-599c-9e6b-37ae62d719d8 --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:57:24 - common.py - INFO    : 15:57:15 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpgFl9rD'}
+15:57:15 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L vendor -N 2050 -I 256 -M /vendor -m 0 -U db7aa080-c08d-5329-96b3-be738941a07a -E android_sparse,hash_seed=450a05ea-946c-599c-9e6b-37ae62d719d8 -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img 283504
+15:57:15 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:57:15 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/vendor_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR -a /vendor /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 283504 4k blocks and 2160 inodes
+Filesystem UUID: db7aa080-c08d-5329-96b3-be738941a07a
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: 0/9   done                            
+Writing inode tables: 0/9   done                            
+Writing superblocks and filesystem accounting information: 0/9   done
+
+
+loaded 1972 fs_config entries
+Created filesystem with 1982/2160 inodes and 236308/283504 blocks
+2025-01-26 15:57:24 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_vendor.img"
+2025-01-26 15:57:25 - common.py - INFO    : 
+2025-01-26 15:57:25 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_vendor.img"
+2025-01-26 15:57:32 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+vendor: 1982/2160 files (1.6% non-contiguous), 236308/283504 blocks
+2025-01-26 15:57:32 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_vendor.img"
+2025-01-26 15:57:33 - common.py - INFO    : 
+2025-01-26 15:57:39 - build_image.py - INFO    : Allocating 1985 Inodes for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img.
+2025-01-26 15:57:39 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1072775168 --calc_max_image_size --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:57:40 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1090056192 --calc_max_image_size --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:57:40 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1090060288 --calc_max_image_size --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:57:40 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1090056192 --calc_max_image_size --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:57:40 - verity_utils.py - INFO    : CalculateMinPartitionSize(1072775168): partition_size 1090060288.
+2025-01-26 15:57:40 - build_image.py - INFO    : Allocating 1039 MB for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img.
+2025-01-26 15:57:40 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1090060288 --calc_max_image_size --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:57:40 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img ext4 vendor 1072775168 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/vendor_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.map -L vendor -i 1985 -M 0 -U db7aa080-c08d-5329-96b3-be738941a07a -S 450a05ea-946c-599c-9e6b-37ae62d719d8 --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:57:50 - common.py - INFO    : 15:57:40 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpZDqFhx'}
+15:57:40 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L vendor -N 1985 -I 256 -M /vendor -m 0 -U db7aa080-c08d-5329-96b3-be738941a07a -E android_sparse,hash_seed=450a05ea-946c-599c-9e6b-37ae62d719d8 -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img 261908
+15:57:40 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:57:40 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/vendor_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR -a /vendor /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 261908 4k blocks and 2048 inodes
+Filesystem UUID: db7aa080-c08d-5329-96b3-be738941a07a
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376
+
+Allocating group tables: 0/8   done                            
+Writing inode tables: 0/8   done                            
+Writing superblocks and filesystem accounting information: 0/8   done
+
+
+loaded 1972 fs_config entries
+Created filesystem with 1982/2048 inodes and 236299/261908 blocks
+2025-01-26 15:57:50 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_vendor.img"
+2025-01-26 15:57:50 - common.py - INFO    : 
+2025-01-26 15:57:50 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_vendor.img"
+2025-01-26 15:57:57 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+vendor: 1982/2048 files (1.7% non-contiguous), 236299/261908 blocks
+2025-01-26 15:57:57 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 1090060288 --partition_name vendor --image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img --salt 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77 --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01"
+2025-01-26 15:58:06 - add_img_to_target_files.py - INFO    : 
+
+++++ product  ++++
+
+
+2025-01-26 15:58:06 - add_img_to_target_files.py - INFO    : creating product.img...
+2025-01-26 15:58:06 - build_image.py - INFO    : The tree size of /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT is 160 MB.
+2025-01-26 15:58:06 - build_image.py - INFO    : First Pass based on estimates of 1960 MB and -1 inodes.
+2025-01-26 15:58:06 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img ext4 product 2055999488 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/product_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.map -L product -M 0 -U 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b -S c8961bef-aa01-537b-8bc4-ac5e35b24a6d --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:58:07 - common.py - INFO    : 15:58:06 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpMcURs1'}
+15:58:06 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L product -I 256 -M /product -m 0 -U 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b -E android_sparse,hash_seed=c8961bef-aa01-537b-8bc4-ac5e35b24a6d -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img 501953
+15:58:06 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:58:06 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/product_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT -a /product /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 501953 4k blocks and 125696 inodes
+Filesystem UUID: 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912
+
+Allocating group tables:  0/16     done                            
+Writing inode tables:  0/16     done                            
+Writing superblocks and filesystem accounting information:  0/16     done
+
+
+loaded 585 fs_config entries
+Created filesystem with 595/125696 inodes and 49291/501953 blocks
+2025-01-26 15:58:07 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_product.img"
+2025-01-26 15:58:07 - common.py - INFO    : 
+2025-01-26 15:58:07 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_product.img"
+2025-01-26 15:58:08 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+product: 595/125696 files (0.2% non-contiguous), 49291/501953 blocks
+2025-01-26 15:58:09 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_product.img"
+2025-01-26 15:58:09 - common.py - INFO    : 
+2025-01-26 15:58:10 - build_image.py - INFO    : Not worth reducing image 1854103552 <= 1887436800.
+2025-01-26 15:58:10 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2055999488 --calc_max_image_size --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:10 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2089046016 --calc_max_image_size --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:10 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2089050112 --calc_max_image_size --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:10 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2089046016 --calc_max_image_size --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:11 - verity_utils.py - INFO    : CalculateMinPartitionSize(2055999488): partition_size 2089046016.
+2025-01-26 15:58:11 - build_image.py - INFO    : Allocating 1992 MB for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img.
+2025-01-26 15:58:11 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2089046016 --calc_max_image_size --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:11 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img ext4 product 2055999488 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/product_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.map -L product -M 0 -U 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b -S c8961bef-aa01-537b-8bc4-ac5e35b24a6d --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:58:12 - common.py - INFO    : 15:58:11 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpCvg7a2'}
+15:58:11 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L product -I 256 -M /product -m 0 -U 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b -E android_sparse,hash_seed=c8961bef-aa01-537b-8bc4-ac5e35b24a6d -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img 501953
+15:58:11 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:58:11 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/product_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT -a /product /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 501953 4k blocks and 125696 inodes
+Filesystem UUID: 61f209e6-11f3-55fc-a7ed-7c7c352bcc9b
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912
+
+Allocating group tables:  0/16     done                            
+Writing inode tables:  0/16     done                            
+Writing superblocks and filesystem accounting information:  0/16     done
+
+
+loaded 585 fs_config entries
+Created filesystem with 595/125696 inodes and 49291/501953 blocks
+2025-01-26 15:58:12 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_product.img"
+2025-01-26 15:58:12 - common.py - INFO    : 
+2025-01-26 15:58:12 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_product.img"
+2025-01-26 15:58:13 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+product: 595/125696 files (0.2% non-contiguous), 49291/501953 blocks
+2025-01-26 15:58:13 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 2089046016 --partition_name product --image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img --salt 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77 --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05"
+2025-01-26 15:58:28 - add_img_to_target_files.py - INFO    : 
+
+++++ system_ext  ++++
+
+
+2025-01-26 15:58:28 - add_img_to_target_files.py - INFO    : creating system_ext.img...
+2025-01-26 15:58:28 - build_image.py - INFO    : The tree size of /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT is 200 MB.
+2025-01-26 15:58:28 - build_image.py - INFO    : First Pass based on estimates of 300 MB and 361 inodes.
+2025-01-26 15:58:28 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img ext4 system_ext 315113472 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/system_ext_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.map -L system_ext -i 361 -M 0 -U 8dba71a5-a3e9-51ca-9fe0-b86043e6b319 -S c7ca9d03-ca62-5552-9697-90736e356845 --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:58:29 - common.py - INFO    : 15:58:28 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmp_00U_K'}
+15:58:28 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L system_ext -N 361 -I 256 -M /system_ext -m 0 -U 8dba71a5-a3e9-51ca-9fe0-b86043e6b319 -E android_sparse,hash_seed=c7ca9d03-ca62-5552-9697-90736e356845 -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img 76932
+15:58:28 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:58:28 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/system_ext_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT -a /system_ext /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 76932 4k blocks and 384 inodes
+Filesystem UUID: 8dba71a5-a3e9-51ca-9fe0-b86043e6b319
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/3   done                            
+Writing inode tables: 0/3   done                            
+Writing superblocks and filesystem accounting information: 0/3   done
+
+
+loaded 348 fs_config entries
+Created filesystem with 358/384 inodes and 51534/76932 blocks
+2025-01-26 15:58:29 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system_ext.img"
+2025-01-26 15:58:30 - common.py - INFO    : 
+2025-01-26 15:58:30 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system_ext.img"
+2025-01-26 15:58:31 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+system_ext: 358/384 files (0.3% non-contiguous), 51534/76932 blocks
+2025-01-26 15:58:31 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system_ext.img"
+2025-01-26 15:58:31 - common.py - INFO    : 
+2025-01-26 15:58:33 - build_image.py - INFO    : Not worth reducing image 104030208 <= 104857600.
+2025-01-26 15:58:33 - build_image.py - INFO    : Allocating 359 Inodes for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img.
+2025-01-26 15:58:33 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 315113472 --calc_max_image_size --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:33 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 320253952 --calc_max_image_size --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:33 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 320258048 --calc_max_image_size --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:33 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 320253952 --calc_max_image_size --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:33 - verity_utils.py - INFO    : CalculateMinPartitionSize(315113472): partition_size 320253952.
+2025-01-26 15:58:33 - build_image.py - INFO    : Allocating 305 MB for /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img.
+2025-01-26 15:58:33 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 320253952 --calc_max_image_size --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:34 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img ext4 system_ext 315113472 -j 0 -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/system_ext_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.map -L system_ext -i 359 -M 0 -U 8dba71a5-a3e9-51ca-9fe0-b86043e6b319 -S c7ca9d03-ca62-5552-9697-90736e356845 --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:58:35 - common.py - INFO    : 15:58:34 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmp0Bjcxy'}
+15:58:34 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L system_ext -N 359 -I 256 -M /system_ext -m 0 -U 8dba71a5-a3e9-51ca-9fe0-b86043e6b319 -E android_sparse,hash_seed=c7ca9d03-ca62-5552-9697-90736e356845 -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img 76932
+15:58:34 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:58:34 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/system_ext_filesystem_config.txt -B /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.map -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT -a /system_ext /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 76932 4k blocks and 384 inodes
+Filesystem UUID: 8dba71a5-a3e9-51ca-9fe0-b86043e6b319
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/3   done                            
+Writing inode tables: 0/3   done                            
+Writing superblocks and filesystem accounting information: 0/3   done
+
+
+loaded 348 fs_config entries
+Created filesystem with 358/384 inodes and 51534/76932 blocks
+2025-01-26 15:58:35 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system_ext.img"
+2025-01-26 15:58:35 - common.py - INFO    : 
+2025-01-26 15:58:35 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_system_ext.img"
+2025-01-26 15:58:37 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+system_ext: 358/384 files (0.3% non-contiguous), 51534/76932 blocks
+2025-01-26 15:58:37 - common.py - INFO    :   Running: "avbtool add_hashtree_footer --partition_size 320253952 --partition_name system_ext --image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img --salt 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77 --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05"
+2025-01-26 15:58:39 - add_img_to_target_files.py - INFO    : 
+
+++++ userdata  ++++
+
+
+2025-01-26 15:58:39 - add_img_to_target_files.py - INFO    : creating userdata.img...
+2025-01-26 15:58:39 - common.py - INFO    :   Running: "mkf2fsuserimg.sh /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/userdata.img 112421842944 -S -f /home/ubuntu/lemonage/out/soong/.temp/tmpFqa0b6 -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -t data -T 1230768000 -L data --prjquota --casefold"
+2025-01-26 15:58:40 - common.py - INFO    : in mkf2fsuserimg.sh PATH=out/host/linux-x86/bin:out/host/linux-x86/bin/:system/extras/ext4_utils/:/home/ubuntu/lemonage/prebuilts/build-tools/path/linux-x86:/home/ubuntu/lemonage/out/.path
+make_f2fs -g android -S 112421842944 -l data -O project_quota,extra_attr -O casefold -C utf8 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/userdata.img
+
+	F2FS-tools: mkfs.f2fs Ver: 1.13.0 (2019-09-24)
+
+Info: Disable heap-based policy
+Info: Debug level = 1
+Info: Label = data
+Info: Trim is disabled
+Info: Set conf for android
+	Info: No support kernel version!
+Info: Segments per section = 1
+Info: Sections per zone = 1
+Info: sector size = 512
+Info: total sectors = 219573912 (107213 MB)
+Info: zone aligned segment0 blkaddr: 512
+Info: add quota type = 0 => 4
+Info: add quota type = 1 => 5
+Info: add quota type = 2 => 6
+[f2fs_init_sit_area: 556] 	Filling sit area at offset 0x00600000
+[f2fs_init_nat_area: 590] 	Filling nat area at offset 0x00e00000
+[f2fs_write_root_inode:1170] 	Writing root inode (hot node), 1c800 0 200 at offset 0x00116736
+[f2fs_write_default_quota:1246] 	Writing quota data, at offset 0001ce01, 0001ce02
+[f2fs_write_qf_inode:1337] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116737
+[f2fs_write_default_quota:1246] 	Writing quota data, at offset 0001ce03, 0001ce04
+[f2fs_write_qf_inode:1337] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116738
+[f2fs_write_default_quota:1246] 	Writing quota data, at offset 0001ce05, 0001ce06
+[f2fs_write_qf_inode:1337] 	Writing quota inode (hot node), 1c800 0 200 at offset 0x00116739
+[f2fs_update_nat_root:1391] 	Writing nat root, at offset 0x00000e00
+[f2fs_add_default_dentry_root:1588] 	Writing default dentry root, at offset 0x0001ce00
+Info: Overprovision ratio = 0.610%
+Info: Overprovision segments = 658 (GC reserved = 335)
+[f2fs_write_check_point_pack: 734] 	Writing main segments, cp at offset 0x00000200
+[f2fs_write_check_point_pack: 871] 	Writing Segment summary for HOT/WARM/COLD_DATA, at offset 0x00000201
+[f2fs_write_check_point_pack: 898] 	Writing Segment summary for HOT_NODE, at offset 0x00000202
+[f2fs_write_check_point_pack: 910] 	Writing Segment summary for WARM_NODE, at offset 0x00000203
+[f2fs_write_check_point_pack: 921] 	Writing Segment summary for COLD_NODE, at offset 0x00000204
+[f2fs_write_check_point_pack: 929] 	Writing cp page2, at offset 0x00000205
+[f2fs_write_check_point_pack: 949] 	Writing NAT bits pages, at offset 0x000003fe
+[f2fs_write_check_point_pack: 970] 	Writing cp page 1 of checkpoint pack 2, at offset 0x00000400
+[f2fs_write_check_point_pack: 989] 	Writing cp page 2 of checkpoint pack 2, at offset 0x00000405
+[f2fs_write_super_block:1022] 	Writing super block, at offset 0x00000000
+Info: format successful
+sload_f2fs -S -f /home/ubuntu/lemonage/out/soong/.temp/tmpFqa0b6 -s /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -t /data -T 1230768000 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/userdata.img
+	Info: No support kernel version!
+Info: Segments per section = 1
+Info: Sections per zone = 1
+Info: sector size = 512
+Info: total sectors = 219573912 (107213 MB)
+Info: MKFS version
+  "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+Info: FSCK version
+  from "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+    to "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+Info: superblock features = 1499 :  encrypt verity extra_attr project_quota quota_ino casefold
+Info: superblock encrypt level = 0, salt = 00000000000000000000000000000000
+Info: total FS sectors = 219573912 (107213 MB)
+Info: CKPT version = 967011
+Info: Duplicate valid checkpoint to mirror position 512 -> 1024
+Info: Write valid nat_bits in checkpoint
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[0] 3 -> 5 after 1c800
+
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[1] 6840 -> 6 after 1c800
+
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[2] 341f -> 7 after 1c800
+
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[3] 0 -> 4 after 1c800
+
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[4] 1 -> 8 after 1c800
+
+[FIX] (move_one_curseg_info:2728)  --> Move curseg[5] 2 -> 1 after 1c800
+
+Info: Write valid nat_bits in checkpoint
+Info: MKFS version
+  "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+Info: FSCK version
+  from "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+    to "6.8.0-1021-aws #23-Ubuntu SMP Mon Dec  9 23:59:34 UTC 2024"
+Info: superblock features = 1499 :  encrypt verity extra_attr project_quota quota_ino casefold
+Info: superblock encrypt level = 0, salt = 00000000000000000000000000000000
+Info: total FS sectors = 219573912 (107213 MB)
+Info: CKPT version = 967011
+Info: Checked valid nat_bits in checkpoint
+Info: checkpoint state = 81 :  nat_bits unmount
+[fsck_chk_quota_files:1851] Fixing Quota file ([  0] ino [0x4])
+[fsck_chk_quota_files:1851] Fixing Quota file ([  1] ino [0x5])
+[fsck_chk_quota_files:1851] Fixing Quota file ([  2] ino [0x6])
+
+[FSCK] Unreachable nat entries                        [Ok..] [0x0]
+[FSCK] SIT valid block bitmap checking                [Ok..]
+[FSCK] Hard link checking for regular file            [Ok..] [0x0]
+[FSCK] valid_block_count matching with CP             [Ok..] [0xc]
+[FSCK] valid_node_count matching with CP (de lookup)  [Ok..] [0x5]
+[FSCK] valid_node_count matching with CP (nat lookup) [Ok..] [0x5]
+[FSCK] valid_inode_count matched with CP              [Ok..] [0x4]
+[FSCK] free segment_count matched with CP             [Ok..] [0xd07a]
+[FSCK] next block offset is free                      [Ok..]
+[FSCK] fixing SIT types
+[FSCK] other corrupted bugs                           [Fail]
+Info: Duplicate valid checkpoint to mirror position 512 -> 1024
+Info: Write valid nat_bits in checkpoint
+
+Done: 0.460784 secs
+2025-01-26 15:58:40 - common.py - INFO    :   userdata size (149) is 0.00% of limit (112421842944)
+2025-01-26 15:58:40 - add_img_to_target_files.py - INFO    : 
+
+++++ cache  ++++
+
+
+2025-01-26 15:58:40 - add_img_to_target_files.py - INFO    : creating cache.img...
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/ubuntu/lemonage/out/soong/.temp/tmpfilR0G /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/cache.img ext4 cache 402653184 -T 1230768000 -L cache --inode_size 256 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin"
+2025-01-26 15:58:40 - common.py - INFO    : 15:58:40 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/ubuntu/lemonage/out/soong/.temp/tmpw29ol8'}
+15:58:40 mkuserimg_mke2fs.py INFO: Running: mke2fs -L cache -I 256 -M /cache -E android_sparse -t ext4 -b 4096 /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/cache.img 98304
+15:58:40 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+15:58:40 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -S /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/file_contexts.bin -f /home/ubuntu/lemonage/out/soong/.temp/tmpfilR0G -a /cache /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/cache.img
+mke2fs 1.45.4 (23-Sep-2019)
+Creating filesystem with 98304 4k blocks and 98304 inodes
+Filesystem UUID: b1a16caf-c46c-429f-8a6a-fa8c43dd6346
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: 0/3   done                            
+Writing inode tables: 0/3   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/3   done
+
+
+Created filesystem with 11/98304 inodes and 10255/98304 blocks
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "simg2img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/cache.img /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_cache.img"
+2025-01-26 15:58:40 - common.py - INFO    : 
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "e2fsck -f -n /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/unsparse_cache.img"
+2025-01-26 15:58:40 - common.py - INFO    : e2fsck 1.45.4 (23-Sep-2019)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+cache: 11/98304 files (0.0% non-contiguous), 10255/98304 blocks
+2025-01-26 15:58:40 - common.py - INFO    :   cache size (146) is 0.00% of limit (402653184)
+2025-01-26 15:58:40 - add_img_to_target_files.py - INFO    : 
+
+++++ dtbo  ++++
+
+
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "avbtool add_hash_footer --image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/dtbo.img --partition_size 8388608 --partition_name dtbo --prop com.android.build.dtbo.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys"
+2025-01-26 15:58:40 - common.py - INFO    : 
+2025-01-26 15:58:40 - add_img_to_target_files.py - INFO    : 
+
+++++ vbmeta_system  ++++
+
+
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "avbtool make_vbmeta_image --output /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vbmeta_system.img --key external/avb/test/data/testkey_rsa2048.pem --algorithm SHA256_RSA2048 --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/product.img --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system.img --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/system_ext.img --padding_size 4096 --rollback_index 1707091200"
+2025-01-26 15:58:40 - common.py - INFO    : 
+2025-01-26 15:58:40 - add_img_to_target_files.py - INFO    : 
+
+++++ vbmeta  ++++
+
+
+2025-01-26 15:58:40 - common.py - INFO    :   Running: "avbtool extract_public_key --key external/avb/test/data/testkey_rsa2048.pem --output /home/ubuntu/lemonage/out/soong/.temp/avb-1hkwko.avbpubkey"
+2025-01-26 15:58:41 - common.py - INFO    : 
+2025-01-26 15:58:41 - common.py - INFO    :   Running: "avbtool make_vbmeta_image --output /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vbmeta.img --key external/avb/test/data/testkey_rsa4096.pem --algorithm SHA256_RSA4096 --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/vendor.img --chain_partition vbmeta_system:1:/home/ubuntu/lemonage/out/soong/.temp/avb-1hkwko.avbpubkey --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/boot.img --include_descriptors_from_image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/dtbo.img --flags 3 --padding_size 4096"
+2025-01-26 15:58:41 - common.py - INFO    : 
+2025-01-26 15:58:41 - add_img_to_target_files.py - INFO    : 
+
+++++ super_empty  ++++
+
+
+2025-01-26 15:58:41 - build_super_image.py - INFO    : Building super image from info dict...
+2025-01-26 15:58:41 - common.py - INFO    :   Running: "lpmake --metadata-size 65536 --super-name super --metadata-slots 2 --device super:8589934592 --group qti_dynamic_partitions:8585740288 --partition system:readonly:0:qti_dynamic_partitions --partition system_ext:readonly:0:qti_dynamic_partitions --partition vendor:readonly:0:qti_dynamic_partitions --partition product:readonly:0:qti_dynamic_partitions --sparse --output /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/super_empty.img"
+2025-01-26 15:58:41 - common.py - INFO    : 
+2025-01-26 15:58:41 - build_super_image.py - INFO    : Done writing image /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/IMAGES/super_empty.img
+2025-01-26 15:58:41 - add_img_to_target_files.py - INFO    : 
+
+++++ radio  ++++
+
+
+2025-01-26 15:58:41 - add_img_to_target_files.py - INFO    : done.
+[ 99% 883/884] Package OTA: out/target/product/miatoll/lineage_miatoll-ota-eng.ubuntu.zip
+FAILED: out/target/product/miatoll/lineage_miatoll-ota-eng.ubuntu.zip out/target/product/miatoll/ota_metadata
+/bin/bash -c "PATH=out/host/linux-x86/bin/:system/extras/ext4_utils/:\$PATH out/host/linux-x86/bin/ota_from_target_files --verbose --extracted_input_target_files out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu --path out/host/linux-x86 --backup=true  -k build/make/target/product/security/testkey --output_metadata_path out/target/product/miatoll/ota_metadata out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu.zip out/target/product/miatoll/lineage_miatoll-ota-eng.ubuntu.zip"
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read SYSTEM/etc/build.prop
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read VENDOR/etc/build.prop
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read SYSTEM_EXT/etc/build.prop
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2025-01-26 15:59:04 - common.py - WARNING : Failed to read ODM/build.prop
+2025-01-26 15:59:04 - ota_from_target_files.py - INFO    : --- target info ---
+2025-01-26 15:59:04 - common.py - INFO    : allow_non_ab              = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_avbtool               = (str) avbtool
+2025-01-26 15:59:04 - common.py - INFO    : avb_boot_add_hash_footer_args = (str) --prop com.android.build.boot.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.boot.os_version:11
+2025-01-26 15:59:04 - common.py - INFO    : avb_dtbo_add_hash_footer_args = (str) --prop com.android.build.dtbo.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys
+2025-01-26 15:59:04 - common.py - INFO    : avb_enable                = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_odm_add_hashtree_footer_args = (str) --prop com.android.build.odm.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.odm.os_version:11
+2025-01-26 15:59:04 - common.py - INFO    : avb_odm_hashtree_enable   = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_odm_salt              = (str) 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77
+2025-01-26 15:59:04 - common.py - INFO    : avb_product_add_hashtree_footer_args = (str) --prop com.android.build.product.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.product.os_version:11 --prop com.android.build.product.security_patch:2024-02-05
+2025-01-26 15:59:04 - common.py - INFO    : avb_product_hashtree_enable = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_product_salt          = (str) 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77
+2025-01-26 15:59:04 - common.py - INFO    : avb_recovery_add_hash_footer_args = (str) --prop com.android.build.recovery.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --rollback_index 1707091200
+2025-01-26 15:59:04 - common.py - INFO    : avb_recovery_algorithm    = (str) SHA256_RSA2048
+2025-01-26 15:59:04 - common.py - INFO    : avb_recovery_key_path     = (str) external/avb/test/data/testkey_rsa2048.pem
+2025-01-26 15:59:04 - common.py - INFO    : avb_recovery_rollback_index_location = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_add_hashtree_footer_args = (str) --prop com.android.build.system.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system.os_version:11 --prop com.android.build.system.security_patch:2024-02-05
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_ext_add_hashtree_footer_args = (str) --prop com.android.build.system_ext.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.system_ext.os_version:11 --prop com.android.build.system_ext.security_patch:2024-02-05
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_ext_hashtree_enable = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_ext_salt       = (str) 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_hashtree_enable = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_other_add_hashtree_footer_args = (str) 
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_other_hashtree_enable = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_system_salt           = (str) 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_algorithm      = (str) SHA256_RSA4096
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_args           = (str) --flags 3 --padding_size 4096
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_key_path       = (str) external/avb/test/data/testkey_rsa4096.pem
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_system         = (str) system system_ext product
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_system_algorithm = (str) SHA256_RSA2048
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_system_args    = (str) --padding_size 4096 --rollback_index 1707091200
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_system_key_path = (str) external/avb/test/data/testkey_rsa2048.pem
+2025-01-26 15:59:04 - common.py - INFO    : avb_vbmeta_system_rollback_index_location = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : avb_vendor_add_hashtree_footer_args = (str) --prop com.android.build.vendor.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys --prop com.android.build.vendor.os_version:11 --prop com.android.build.vendor.security_patch:2022-03-01
+2025-01-26 15:59:04 - common.py - INFO    : avb_vendor_boot_add_hash_footer_args = (str) --prop com.android.build.vendor_boot.fingerprint:Redmi/miatoll_global/miatoll:11/RKQ1.200826.002/V12.5.5.0.RJWMIXM:user/release-keys
+2025-01-26 15:59:04 - common.py - INFO    : avb_vendor_hashtree_enable = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : avb_vendor_salt           = (str) 4c16d4ce65a8b1176f8b15e54c2c80c3fbd9ff495f00c58d907b9547e5fcdd77
+2025-01-26 15:59:04 - common.py - INFO    : blockimgdiff_versions     = (str) 3,4
+2025-01-26 15:59:04 - common.py - INFO    : blocksize                 = (int) 131072
+2025-01-26 15:59:04 - common.py - INFO    : board_builds_vendorimage  = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : board_uses_vendorimage    = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : boot_images               = (str) boot.img
+2025-01-26 15:59:04 - common.py - INFO    : boot_size                 = (int) 134217728
+2025-01-26 15:59:04 - common.py - INFO    : build.prop                = (PartitionBuildProps) <common.PartitionBuildProps object at 0x708504eba190>
+2025-01-26 15:59:04 - common.py - INFO    : cache_fs_type             = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : cache_selinux_fc          = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : cache_size                = (int) 402653184
+2025-01-26 15:59:04 - common.py - INFO    : default_system_dev_certificate = (str) build/make/target/product/security/testkey
+2025-01-26 15:59:04 - common.py - INFO    : dtbo_size                 = (str) 8388608
+2025-01-26 15:59:04 - common.py - INFO    : dynamic_partition_list    = (str) system system_ext vendor product
+2025-01-26 15:59:04 - common.py - INFO    : ext_mkuserimg             = (str) mkuserimg_mke2fs
+2025-01-26 15:59:04 - common.py - INFO    : extfs_sparse_flag         = (str) -s
+2025-01-26 15:59:04 - common.py - INFO    : extra_recovery_keys       = (str) vendor/lineage/build/target/product/security/lineage
+2025-01-26 15:59:04 - common.py - INFO    : f2fs_sparse_flag          = (str) -S
+2025-01-26 15:59:04 - common.py - INFO    : fs_type                   = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : fstab                     = (dict) {'/metadata': <common.Partition object at 0x70850459ef10>, 'none': <common.Partition object at 0x7085046c2150>, '/product': <common.Partition object at 0x70850459edd0>, '/vendor/firmware_mnt': <common.Partition object at 0x70850459efd0>, '/cache': <common.Partition object at 0x70850459ee50>, '/boot': <common.Partition object at 0x70850459ee90>, '/system': <common.Partition object at 0x70850459ed90>, '/system_ext': <common.Partition object at 0x70850459ed50>, '/misc': <common.Partition object at 0x7085046c2110>, '/vendor/bt_firmware': <common.Partition object at 0x7085046c20d0>, '/mnt/vendor/persist': <common.Partition object at 0x7085046c2050>, '/vendor/dsp': <common.Partition object at 0x7085046c2090>, '/data': <common.Partition object at 0x70850459ef90>, '/vendor': <common.Partition object at 0x70850459ee10>}
+2025-01-26 15:59:04 - common.py - INFO    : fstab_version             = (int) 2
+2025-01-26 15:59:04 - common.py - INFO    : full_recovery_image       = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : has_dtbo                  = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : include_recovery_dtbo     = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : lpmake                    = (str) lpmake
+2025-01-26 15:59:04 - common.py - INFO    : mkbootimg_args            = (str) --header_version 2
+2025-01-26 15:59:04 - common.py - INFO    : mkbootimg_version_args    = (str) --os_version 11 --os_patch_level 2024-02-05
+2025-01-26 15:59:04 - common.py - INFO    : multistage_support        = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : needs_casefold            = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : needs_projid              = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : odm.build.prop            = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7085046c2e90>
+2025-01-26 15:59:04 - common.py - INFO    : oem_selinux_fc            = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : ota_override_device       = (str) curtana,excalibur,gram,joyeuse,miatoll
+2025-01-26 15:59:04 - common.py - INFO    : product.build.prop        = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7085046c21d0>
+2025-01-26 15:59:04 - common.py - INFO    : product_extfs_inode_count = (str) -1
+2025-01-26 15:59:04 - common.py - INFO    : product_fs_type           = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : product_reserved_size     = (str) 1887436800
+2025-01-26 15:59:04 - common.py - INFO    : product_selinux_fc        = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : recovery_api_version      = (int) 3
+2025-01-26 15:59:04 - common.py - INFO    : recovery_mkbootimg_args   = (str) --header_version 2
+2025-01-26 15:59:04 - common.py - INFO    : recovery_mount_options    = (str) ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+2025-01-26 15:59:04 - common.py - INFO    : recovery_size             = (int) 134217728
+2025-01-26 15:59:04 - common.py - INFO    : root_dir                  = (str) out/target/product/miatoll/root
+2025-01-26 15:59:04 - common.py - INFO    : squashfs_sparse_flag      = (str) -s
+2025-01-26 15:59:04 - common.py - INFO    : super_block_devices       = (str) super
+2025-01-26 15:59:04 - common.py - INFO    : super_metadata_device     = (str) super
+2025-01-26 15:59:04 - common.py - INFO    : super_partition_groups    = (str) qti_dynamic_partitions
+2025-01-26 15:59:04 - common.py - INFO    : super_partition_size      = (str) 8589934592
+2025-01-26 15:59:04 - common.py - INFO    : super_qti_dynamic_partitions_group_size = (str) 8585740288
+2025-01-26 15:59:04 - common.py - INFO    : super_qti_dynamic_partitions_partition_list = (str) system system_ext vendor product
+2025-01-26 15:59:04 - common.py - INFO    : super_super_device_size   = (str) 8589934592
+2025-01-26 15:59:04 - common.py - INFO    : system.build.prop         = (PartitionBuildProps) <common.PartitionBuildProps object at 0x708504eba190>
+2025-01-26 15:59:04 - common.py - INFO    : system_ext.build.prop     = (PartitionBuildProps) <common.PartitionBuildProps object at 0x7085046d6a90>
+2025-01-26 15:59:04 - common.py - INFO    : system_ext_fs_type        = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : system_ext_reserved_size  = (str) 104857600
+2025-01-26 15:59:04 - common.py - INFO    : system_ext_selinux_fc     = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : system_extfs_inode_count  = (str) -1
+2025-01-26 15:59:04 - common.py - INFO    : system_fs_type            = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : system_reserved_size      = (str) 1887436800
+2025-01-26 15:59:04 - common.py - INFO    : system_selinux_fc         = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : tool_extensions           = (str) device/xiaomi/sm6250-common
+2025-01-26 15:59:04 - common.py - INFO    : use_dynamic_partition_size = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : use_dynamic_partitions    = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : use_set_metadata          = (str) 1
+2025-01-26 15:59:04 - common.py - INFO    : userdata_fs_type          = (str) f2fs
+2025-01-26 15:59:04 - common.py - INFO    : userdata_selinux_fc       = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : userdata_size             = (int) 112421842944
+2025-01-26 15:59:04 - common.py - INFO    : vendor.build.prop         = (PartitionBuildProps) <common.PartitionBuildProps object at 0x708504e6a690>
+2025-01-26 15:59:04 - common.py - INFO    : vendor_fs_type            = (str) ext4
+2025-01-26 15:59:04 - common.py - INFO    : vendor_reserved_size      = (str) 104857600
+2025-01-26 15:59:04 - common.py - INFO    : vendor_selinux_fc         = (str) out/target/product/miatoll/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2025-01-26 15:59:04 - common.py - INFO    : vintf_enforce             = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : vintf_include_empty_vendor_sku = (str) true
+2025-01-26 15:59:04 - common.py - INFO    : vintf_odm_manifest_skus   = (str) nfc
+2025-01-26 15:59:04 - common.py - INFO    :   Running: "openssl pkcs8 -in build/make/target/product/security/testkey.pk8 -inform DER -nocrypt"
+2025-01-26 15:59:04 - ota_from_target_files.py - INFO    : (using device-specific extensions from target_files)
+2025-01-26 15:59:04 - common.py - INFO    : loaded device-specific extensions from /home/ubuntu/lemonage/out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/releasetools.py
+2025-01-26 15:59:04 - sparse_img.py - INFO    : Total of 713650 4096-byte output blocks in 34 input chunks.
+2025-01-26 15:59:06 - blockimgdiff.py - INFO    : Finding transfers...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Generating digraph...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Reversing backward edges...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Improving vertex order...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:10 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:14 - blockimgdiff.py - INFO    : Reticulating splines...
+2025-01-26 15:59:15 - blockimgdiff.py - INFO    : 1036525568 1036525568 (100.00%)     new __DATA 0-190 503-32770 33271-65536 66037-98306 98807-131072 131573-163842 164343-196608 197109-229378 229879-245734 294912-294913 688128 702369-713499 713649
+2025-01-26 15:59:15 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 322122547 bytes (0.00%)
+
+2025-01-26 15:59:15 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2025-01-26 15:59:15 - blockimgdiff.py - INFO    : ========================
+
+2025-01-26 15:59:15 - sparse_img.py - INFO    : Total of 266128 4096-byte output blocks in 23 input chunks.
+2025-01-26 15:59:16 - blockimgdiff.py - INFO    : Finding transfers...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Generating digraph...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Reversing backward edges...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Improving vertex order...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:20 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:23 - blockimgdiff.py - INFO    : Reticulating splines...
+2025-01-26 15:59:24 - blockimgdiff.py - INFO    :  984879104  984879104 (100.00%)     new __DATA 0-229391 229396-236298 261908-266060 266127
+2025-01-26 15:59:24 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 322122547 bytes (0.00%)
+
+2025-01-26 15:59:24 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2025-01-26 15:59:24 - blockimgdiff.py - INFO    : ========================
+
+2025-01-26 15:59:24 - sparse_img.py - INFO    : Total of 510021 4096-byte output blocks in 22 input chunks.
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Finding transfers...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Generating digraph...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Reversing backward edges...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Improving vertex order...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:25 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    : Reticulating splines...
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    :  202346496  202346496 (100.00%)     new __DATA 0-41 495-32770 33263-42380 98304-98305 163840-163841 229376-229377 294912-294913 491520 501953-509907 510020
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 322122547 bytes (0.00%)
+
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    : ========================
+
+2025-01-26 15:59:26 - sparse_img.py - INFO    : Total of 78187 4096-byte output blocks in 14 input chunks.
+2025-01-26 15:59:26 - blockimgdiff.py - INFO    : Finding transfers...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Generating digraph...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Reversing backward edges...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Improving vertex order...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    : Revising stash size...
+2025-01-26 15:59:27 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2025-01-26 15:59:28 - blockimgdiff.py - INFO    : Reticulating splines...
+2025-01-26 15:59:28 - blockimgdiff.py - INFO    :  216092672  216092672 (100.00%)     new __DATA 0-51477 65536-65544 65546-65591 76932-78154 78186
+2025-01-26 15:59:28 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 322122547 bytes (0.00%)
+
+2025-01-26 15:59:28 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2025-01-26 15:59:28 - blockimgdiff.py - INFO    : ========================
+
+2025-01-26 15:59:28 - common.py - INFO    : using prebuilt recovery.img from IMAGES...
+2025-01-26 15:59:29 - common.py - INFO    : Updating dynamic partitions ['system', 'vendor', 'product', 'system_ext']
+2025-01-26 15:59:29 - common.py - INFO    :   Running: "brotli --quality=6 --output=/home/ubuntu/lemonage/out/soong/.temp/tmp049jqb/system.new.dat.br /home/ubuntu/lemonage/out/soong/.temp/tmp049jqb/system.new.dat"
+2025-01-26 16:00:33 - common.py - INFO    : 
+2025-01-26 16:00:34 - common.py - INFO    :   Running: "brotli --quality=6 --output=/home/ubuntu/lemonage/out/soong/.temp/tmpEpsLXw/vendor.new.dat.br /home/ubuntu/lemonage/out/soong/.temp/tmpEpsLXw/vendor.new.dat"
+2025-01-26 16:01:24 - common.py - INFO    : 
+2025-01-26 16:01:25 - common.py - INFO    :   Running: "brotli --quality=6 --output=/home/ubuntu/lemonage/out/soong/.temp/tmpR7e1Ml/product.new.dat.br /home/ubuntu/lemonage/out/soong/.temp/tmpR7e1Ml/product.new.dat"
+2025-01-26 16:01:36 - common.py - INFO    : 
+2025-01-26 16:01:36 - common.py - INFO    :   Running: "brotli --quality=6 --output=/home/ubuntu/lemonage/out/soong/.temp/tmpnuti8g/system_ext.new.dat.br /home/ubuntu/lemonage/out/soong/.temp/tmpnuti8g/system_ext.new.dat"
+2025-01-26 16:01:49 - common.py - INFO    : 
+2025-01-26 16:01:49 - check_target_files_vintf.py - INFO    : Checking VINTF compatibility extracted target files...
+2025-01-26 16:01:49 - common.py - INFO    :   Running: "checkvintf --check-compat --dirmap /system:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM --dirmap /system_ext:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT --dirmap /product:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT --dirmap /vendor:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR --dirmap /odm:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/odm --kernel 4.14.190:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/kernel_configs.txt --property ro.product.first_api_level=29 --property ro.boot.product.hardware.sku=nfc --property ro.boot.product.vendor.sku="
+2025-01-26 16:01:49 - check_target_files_vintf.py - INFO    : Command `checkvintf --check-compat --dirmap /system:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM --dirmap /system_ext:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT --dirmap /product:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT --dirmap /vendor:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR --dirmap /odm:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/odm --kernel 4.14.190:out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/kernel_configs.txt --property ro.product.first_api_level=29 --property ro.boot.product.hardware.sku=nfc --property ro.boot.product.vendor.sku=` returns 'incompatible'
+2025-01-26 16:01:49 - check_target_files_vintf.py - INFO    : stdout: INCOMPATIBLE
+
+2025-01-26 16:01:49 - check_target_files_vintf.py - INFO    : stderr: checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:55] getFrameworkHalManifest: Reading VINTF information.
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/manifest_android.frameworks.cameraservice.service@2.1.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/android.hidl.allocator@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/manifest_media_c2_software.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/android.frameworks.stats@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest/android.system.suspend@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/manifest.xml': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/manifest/': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/manifest/': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:61] getFrameworkHalManifest: Successfully processed VINTF information
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:55] getDeviceHalManifest: Reading VINTF information.
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:122] Sysprop ro.boot.product.vendor.sku=
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.graphics.composer-qti-display.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.cas@1.2-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.thermal@2.0-service.xiaomi_atoll.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/lights-xiaomi_atoll.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.sensors@2.1-multihal.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.usb@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_atoll.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.health@2.1.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/vendor.lineage.trust@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.clearkey.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.wifi.hostapd.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:122] Sysprop ro.boot.product.hardware.sku=nfc
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/odm/etc/vintf/manifest_nfc.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/odm/etc/vintf/manifest/': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:61] getDeviceHalManifest: Successfully processed VINTF information
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:55] getFrameworkCompatibilityMatrix: Reading VINTF information.
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.4.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.device.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.legacy.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.2.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.1.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.3.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.5.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:61] getFrameworkCompatibilityMatrix: Successfully processed VINTF information
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:55] getDeviceCompatibilityMatrix: Reading VINTF information.
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/VENDOR/etc/vintf/compatibility_matrix.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 VintfObject.cpp:61] getDeviceCompatibilityMatrix: Successfully processed VINTF information
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:154] fetched kernel version 4.14.190
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:168] read kernel configs from out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/META/kernel_configs.txt
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.4.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.device.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.legacy.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.2.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.1.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.3.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.5.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/': No such file or directory
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.4.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.device.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.legacy.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.2.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.1.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.3.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM/etc/vintf/compatibility_matrix.5.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:74] Fetch 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/SYSTEM_EXT/etc/vintf/manifest.xml': SUCCESS
+checkvintf I 01-26 16:01:49 3493551 3493551 check_vintf.cpp:84] List 'out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/': No such file or directory
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] files are incompatible: Device manifest and framework compatibility matrix are incompatible: HALs incompatible. Matrix level = 5. Manifest level = 5. The following requirements are not met:
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power:
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554]     required: IPower/default
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554]     provided: @1.3::IPower/default
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] 
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] Cannot open out/target/product/miatoll/obj/PACKAGING/target_files_intermediates/lineage_miatoll-target_files-eng.ubuntu/PRODUCT/etc/vintf/: No such file or directory
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power@1.3::IPower/default is deprecated in compatibility matrix at FCM Version 5; it should not be served.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power@1.3::IPower/default is deprecated in compatibility matrix at FCM Version 5; it should not be served.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power@1.3::IPower/default is deprecated in compatibility matrix at FCM Version 5; it should not be served.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power@1.3::IPower/default is deprecated in compatibility matrix at FCM Version 5; it should not be served.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] android.hardware.power@1.3::IPower/default is deprecated in compatibility matrix at FCM Version 5; it should not be served.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] The following instances are in the device manifest but not specified in framework compatibility matrix: 
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554]     android.hardware.power@1.3::IPower/default
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] Suggested fix:
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] 1. Update deprecated HALs to the latest version.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] 2. Check for any typos in device manifest or framework compatibility matrices with FCM version >= 5.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] 3. For new platform HALs, add them to any framework compatibility matrix with FCM version >= 5 where applicable.
+checkvintf E 01-26 16:01:49 3493551 3493551 check_vintf.cpp:554] 4. For device-specific HALs, add to DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE or DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE.: Success
+
+Compressing system.new.dat with brotli
+Compressing vendor.new.dat with brotli
+Compressing product.new.dat with brotli
+Compressing system_ext.new.dat with brotli
+Traceback (most recent call last):
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/internal/stdlib/runpy.py", line 174, in _run_module_as_main
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/internal/stdlib/runpy.py", line 72, in _run_code
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/__main__.py", line 12, in <module>
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/internal/stdlib/runpy.py", line 174, in _run_module_as_main
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/internal/stdlib/runpy.py", line 72, in _run_code
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 2300, in <module>
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 2279, in main
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 2019, in GenerateNonAbOtaPackage
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 864, in WriteFullOTAPackage
+  File "/home/ubuntu/lemonage/out/host/linux-x86/bin/ota_from_target_files/ota_from_target_files.py", line 630, in CheckVintfIfTrebleEnabled
+RuntimeError: VINTF compatibility check failed
+ninja: build stopped: subcommand failed.
+16:01:53 ninja failed with: exit status 1
+
+[0;31m#### failed to build some targets (13:51 (mm:ss)) ####[00m
+
